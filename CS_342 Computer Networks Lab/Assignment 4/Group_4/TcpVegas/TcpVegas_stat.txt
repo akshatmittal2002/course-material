@@ -1,0 +1,9 @@
+
+Using TcpVegas TCP congestion control algorithm. Flow monitor statistics:
+
+Transfered Packets: 165
+Transfered Bytes: 95952
+Offered Load: 0.427392 Mbps
+Received Packets: 144
+Received Bytes: 83604
+Throughput: 0.375775 Mbps

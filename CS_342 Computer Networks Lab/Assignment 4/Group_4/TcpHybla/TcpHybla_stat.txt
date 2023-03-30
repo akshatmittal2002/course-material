@@ -1,0 +1,9 @@
+
+Using TcpHybla TCP congestion control algorithm. Flow monitor statistics:
+
+Transfered Packets: 129
+Transfered Bytes: 74784
+Offered Load: 0.343333 Mbps
+Received Packets: 114
+Received Bytes: 65964
+Throughput: 0.295416 Mbps

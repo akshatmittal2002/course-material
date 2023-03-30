@@ -1,0 +1,75 @@
+diff -ruN xv6-public/defs.h xv6-public-3A/defs.h
+--- xv6-public/defs.h	2022-09-03 10:30:31.197427818 +0530
++++ xv6-public-3A/defs.h	2022-10-29 23:58:27.984620195 +0530
+@@ -185,6 +185,8 @@
+ void            switchkvm(void);
+ int             copyout(pde_t*, uint, void*, uint);
+ void            clearpteu(pde_t *pgdir, char *uva);
++// Assign 3A
++void            lazy_mem_alloc(pde_t *pgdir, uint va);
+ 
+ // number of elements in fixed-size array
+ #define NELEM(x) (sizeof(x)/sizeof((x)[0]))
+diff -ruN xv6-public/sysproc.c xv6-public-3A/sysproc.c
+--- xv6-public/sysproc.c	2022-09-03 10:30:31.201341338 +0530
++++ xv6-public-3A/sysproc.c	2022-10-16 23:18:14.022306728 +0530
+@@ -51,8 +51,12 @@
+   if(argint(0, &n) < 0)
+     return -1;
+   addr = myproc()->sz;
+-  if(growproc(n) < 0)
+-    return -1;
++  myproc()->sz += n;
++  
++  // delaying the memory allcoation by commenting growproc -> lazy allcoation
++  //  if(growproc(n) < 0)
++  //    return -1;
++  
+   return addr;
+ }
+ 
+diff -ruN xv6-public/trap.c xv6-public-3A/trap.c
+--- xv6-public/trap.c	2022-09-03 10:30:31.205254858 +0530
++++ xv6-public-3A/trap.c	2022-10-31 20:42:40.110502765 +0530
+@@ -77,6 +77,10 @@
+             cpuid(), tf->cs, tf->eip);
+     lapiceoi();
+     break;
++  case T_PGFLT:
++    // rcr2() is giving the virtual address
++    lazy_mem_alloc(myproc()->pgdir, rcr2());
++    break;
+ 
+   //PAGEBREAK: 13
+   default:
+diff -ruN xv6-public/vm.c xv6-public-3A/vm.c
+--- xv6-public/vm.c	2022-09-03 10:30:31.205254858 +0530
++++ xv6-public-3A/vm.c	2022-10-18 09:28:11.986677400 +0530
+@@ -248,6 +248,27 @@
+   return newsz;
+ }
+ 
++// Allocate a new memory page to the process 
++void
++lazy_mem_alloc(pde_t *pgdir, uint va)
++{
++  char *mem;
++  mem = kalloc();
++  
++  if(mem == 0){
++    cprintf("allocuvm out of memory (3)\n");
++    return;
++  }
++  
++  memset(mem, 0, PGSIZE);
++  uint a = PGROUNDDOWN(va);
++  if(mappages(pgdir, (char*)a, PGSIZE, V2P(mem), PTE_W|PTE_U) < 0){
++    cprintf("allocuvm out of memory (4)\n");
++    kfree(mem);
++  }
++}
++
++
+ // Deallocate user pages to bring the process size from oldsz to
+ // newsz.  oldsz and newsz need not be page-aligned, nor does newsz
+ // need to be less than oldsz.  oldsz can be larger than the actual

@@ -1,0 +1,7 @@
+www.google.com 1.1.1.12
+www.netflix.com 2.2.2.256
+www.colour.com 45.24.63.120
+www.amazon.com 127.0.1.4
+www.iitg.ac.in 22.35.36.14
+www.wikipedia.org 147.84.45.1
+www.facebook.com 3.3.3.17

@@ -1,0 +1,9 @@
+
+Using TcpScalable TCP congestion control algorithm. Flow monitor statistics:
+
+Transfered Packets: 128
+Transfered Bytes: 74196
+Offered Load: 0.35125 Mbps
+Received Packets: 109
+Received Bytes: 63024
+Throughput: 0.295294 Mbps

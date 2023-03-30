@@ -1,0 +1,157 @@
+diff -ruN xv6-public/defs.h xv6-public-assign_0B/defs.h
+--- xv6-public/defs.h	2022-08-12 10:29:40.429011784 +0530
++++ xv6-public-assign_0B/defs.h	2022-08-12 10:07:45.820274217 +0530
+@@ -120,6 +120,7 @@
+ int             wait(void);
+ void            wakeup(void*);
+ void            yield(void);
++int             draw(void*, uint);
+ 
+ // swtch.S
+ void            swtch(struct context**, struct context*);
+diff -ruN xv6-public/drawtest.c xv6-public-assign_0B/drawtest.c
+--- xv6-public/drawtest.c	1970-01-01 05:30:00.000000000 +0530
++++ xv6-public-assign_0B/drawtest.c	2022-08-12 10:26:08.109033713 +0530
+@@ -0,0 +1,16 @@
++#include "types.h"
++#include "user.h"
++
++int main(int argc, char const *argv[])
++{
++    const int size = 2000;
++    void *buf = malloc(size);
++    int art_size = draw(buf,size);
++    if(art_size == -1){
++        printf(1, "Error: Could not allocate buffer!\n");
++    }
++    else{
++        printf(1,"%s\n", (char*)buf);
++    }
++    exit();
++}
+Binary files xv6-public/.git/index and xv6-public-assign_0B/.git/index differ
+diff -ruN xv6-public/.git/logs/HEAD xv6-public-assign_0B/.git/logs/HEAD
+--- xv6-public/.git/logs/HEAD	2022-08-12 10:29:40.417010850 +0530
++++ xv6-public-assign_0B/.git/logs/HEAD	2022-08-10 20:34:50.270340154 +0530
+@@ -1 +1 @@
+-0000000000000000000000000000000000000000 eeb7b415dbcb12cc362d0783e41c3d1f44066b17 Akshat Mittal <akshat@akshat.(none)> 1660280380 +0530	clone: from https://www.github.com/mit-pdos/xv6-public.git
++0000000000000000000000000000000000000000 eeb7b415dbcb12cc362d0783e41c3d1f44066b17 Akshat Mittal <akshat@akshat.(none)> 1660143890 +0530	clone: from https://www.github.com/mit-pdos/xv6-public.git
+diff -ruN xv6-public/.git/logs/refs/heads/master xv6-public-assign_0B/.git/logs/refs/heads/master
+--- xv6-public/.git/logs/refs/heads/master	2022-08-12 10:29:40.417010850 +0530
++++ xv6-public-assign_0B/.git/logs/refs/heads/master	2022-08-10 20:34:50.270340154 +0530
+@@ -1 +1 @@
+-0000000000000000000000000000000000000000 eeb7b415dbcb12cc362d0783e41c3d1f44066b17 Akshat Mittal <akshat@akshat.(none)> 1660280380 +0530	clone: from https://www.github.com/mit-pdos/xv6-public.git
++0000000000000000000000000000000000000000 eeb7b415dbcb12cc362d0783e41c3d1f44066b17 Akshat Mittal <akshat@akshat.(none)> 1660143890 +0530	clone: from https://www.github.com/mit-pdos/xv6-public.git
+diff -ruN xv6-public/.git/logs/refs/remotes/origin/HEAD xv6-public-assign_0B/.git/logs/refs/remotes/origin/HEAD
+--- xv6-public/.git/logs/refs/remotes/origin/HEAD	2022-08-12 10:29:40.417010850 +0530
++++ xv6-public-assign_0B/.git/logs/refs/remotes/origin/HEAD	2022-08-10 20:34:50.270340154 +0530
+@@ -1 +1 @@
+-0000000000000000000000000000000000000000 eeb7b415dbcb12cc362d0783e41c3d1f44066b17 Akshat Mittal <akshat@akshat.(none)> 1660280380 +0530	clone: from https://www.github.com/mit-pdos/xv6-public.git
++0000000000000000000000000000000000000000 eeb7b415dbcb12cc362d0783e41c3d1f44066b17 Akshat Mittal <akshat@akshat.(none)> 1660143890 +0530	clone: from https://www.github.com/mit-pdos/xv6-public.git
+diff -ruN xv6-public/Makefile xv6-public-assign_0B/Makefile
+--- xv6-public/Makefile	2022-08-12 10:29:40.429011784 +0530
++++ xv6-public-assign_0B/Makefile	2022-08-12 10:20:44.909262260 +0530
+@@ -181,6 +181,7 @@
+ 	_usertests\
+ 	_wc\
+ 	_zombie\
++	_drawtest\
+ 
+ fs.img: mkfs README $(UPROGS)
+ 	./mkfs fs.img README $(UPROGS)
+diff -ruN xv6-public/syscall.c xv6-public-assign_0B/syscall.c
+--- xv6-public/syscall.c	2022-08-12 10:29:40.437012407 +0530
++++ xv6-public-assign_0B/syscall.c	2022-08-12 10:13:20.632907736 +0530
+@@ -103,6 +103,7 @@
+ extern int sys_wait(void);
+ extern int sys_write(void);
+ extern int sys_uptime(void);
++extern int sys_draw(void);
+ 
+ static int (*syscalls[])(void) = {
+ [SYS_fork]    sys_fork,
+@@ -126,6 +127,7 @@
+ [SYS_link]    sys_link,
+ [SYS_mkdir]   sys_mkdir,
+ [SYS_close]   sys_close,
++[SYS_draw]    sys_draw,
+ };
+ 
+ void
+diff -ruN xv6-public/syscall.h xv6-public-assign_0B/syscall.h
+--- xv6-public/syscall.h	2022-08-12 10:29:40.437012407 +0530
++++ xv6-public-assign_0B/syscall.h	2022-08-12 10:10:33.301551602 +0530
+@@ -20,3 +20,4 @@
+ #define SYS_link   19
+ #define SYS_mkdir  20
+ #define SYS_close  21
++#define SYS_draw   22
+diff -ruN xv6-public/sysproc.c xv6-public-assign_0B/sysproc.c
+--- xv6-public/sysproc.c	2022-08-12 10:29:40.437012407 +0530
++++ xv6-public-assign_0B/sysproc.c	2022-08-12 10:05:08.085068453 +0530
+@@ -89,3 +89,46 @@
+   release(&tickslock);
+   return xticks;
+ }
++
++int
++sys_draw(void)
++{
++  char* buf;
++  uint size;
++
++  // problem in allocation of integer or buffer
++  if(argint(1, (void*) &size) < 0)
++    return -1;
++  
++  if(argptr(0, (void*) &buf, size) < 0)
++    return -1;
++
++  // ASCII art
++  const char ascii_art[] = "\
++          _                   _               _              _       _        _                 _       \n\
++        / /\\                /\\_\\            / /\\           / /\\    / /\\     / /\\              /\\ \\     \n\
++       / /  \\              / / /  _        / /  \\         / / /   / / /    / /  \\             \\_\\ \\    \n\
++      / / /\\ \\            / / /  /\\_\\     / / /\\ \\__     / /_/   / / /    / / /\\ \\            /\\__ \\   \n\
++     / / /\\ \\ \\          / / /__/ / /    / / /\\ \\___\\   / /\\ \\__/ / /    / / /\\ \\ \\          / /_ \\ \\  \n\
++    / / /  \\ \\ \\        / /\\_____/ /     \\ \\ \\ \\/___/  / /\\ \\___\\/ /    / / /  \\ \\ \\        / / /\\ \\ \\ \n\
++   / / /___/ /\\ \\      / /\\_______/       \\ \\ \\       / / /\\/___/ /    / / /___/ /\\ \\      / / /  \\/_/ \n\
++  / / /_____/ /\\ \\    / / /\\ \\ \\      _    \\ \\ \\     / / /   / / /    / / /_____/ /\\ \\    / / /        \n\
++ / /_________/\\ \\ \\  / / /  \\ \\ \\    /_/\\__/ / /    / / /   / / /    / /_________/\\ \\ \\  / / /         \n\
++/ / /_       __\\ \\_\\/ / /    \\ \\ \\   \\ \\/___/ /    / / /   / / /    / / /_       __\\ \\_\\/_/ /          \n\
++\\_\\___\\     /____/_/\\/_/      \\_\\_\\   \\_____\\/     \\/_/    \\/_/     \\_\\___\\     /____/_/\\_\\/           \n\
++";
++
++  // size of ascii art
++  int art_size = sizeof(ascii_art);
++
++  // if size of ascii art is more that available
++  if(size < art_size)
++    return -1;
++  
++  // copy art to buffer
++  for(int i = 0; i < art_size; i ++)
++    buf[i] = ascii_art[i];
++  
++  // return number of bytes copied, i.e., 1*(size of art)
++  return art_size;
++}
+diff -ruN xv6-public/user.h xv6-public-assign_0B/user.h
+--- xv6-public/user.h	2022-08-12 10:29:40.437012407 +0530
++++ xv6-public-assign_0B/user.h	2022-08-12 10:08:54.170731480 +0530
+@@ -23,6 +23,7 @@
+ char* sbrk(int);
+ int sleep(int);
+ int uptime(void);
++int draw(void*, uint);
+ 
+ // ulib.c
+ int stat(const char*, struct stat*);
+diff -ruN xv6-public/usys.S xv6-public-assign_0B/usys.S
+--- xv6-public/usys.S	2022-08-12 10:29:40.437012407 +0530
++++ xv6-public-assign_0B/usys.S	2022-08-12 10:08:21.301236343 +0530
+@@ -29,3 +29,4 @@
+ SYSCALL(sbrk)
+ SYSCALL(sleep)
+ SYSCALL(uptime)
++SYSCALL(draw)

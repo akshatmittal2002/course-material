@@ -1,0 +1,158 @@
+<title>Vdbench output/localhost-0.stdout.html</title><pre>
+stdout/stderr for slave=localhost-0
+
+23:39:38.919 23:39:38.918 SlaveJvm execution parameter:  '-m localhost'
+23:39:38.921 23:39:38.918 SlaveJvm execution parameter:  '-n localhost-10-221113-23.39.38.611'
+23:39:38.921 23:39:38.919 SlaveJvm execution parameter:  '-l localhost-0'
+23:39:38.921 23:39:38.919 SlaveJvm execution parameter:  '-p 5570'
+23:39:38.921 23:39:38.919 SlaveJvm positional parameter: 'SlaveJvm'
+23:39:38.957 23:39:38.956 successfully connected to master localhost
+23:39:38.957 23:39:38.957 Connection to localhost using port 5570 successful
+23:39:39.222 23:39:39.222 ticks_per_second: 100
+23:39:39.275 23:39:39.275 execute(): ls -l /zfs-dedup-off
+23:39:39.292 23:39:39.291 Configuration interpretation took 0.06 seconds
+
+Link to Run Definitions:         <A HREF="#_692342133">format_for_rd1 For loops: None</A>
+                                 <A HREF="#_578866604">rd1 For loops: None</A>
+
+23:39:39.458 23:39:39.457 Beginning of run setup
+23:39:39.458 23:39:39.458 **********************
+23:39:39.458 
+23:39:39.458 
+23:39:39.458 23:39:39.458 File '/var/log/messages' does not exist. Monitoring bypassed
+23:39:39.459 23:39:39.458 File '/var/log/messages.1' does not exist. Monitoring bypassed
+23:39:39.529 23:39:39.528 Deleting old file structure.
+23:39:39.530 23:39:39.530 Starting initializeFileAnchor for rd=format_for_rd1 For loops: None anchor=fsd1
+23:39:39.532 23:39:39.532 Completed the creation of the directory list for /zfs-dedup-off: 30 directories.
+23:39:39.533 23:39:39.533 Generated 500 file names; total anchor size: 500m (524,288,000)
+23:39:39.535 23:39:39.535 Created flipflop bitmap for fsd1. 1 bitmaps for a total of 500 bits.
+23:39:39.535 23:39:39.535 Creating bitmap for unique blocks for fsd=fsd1. 1 bitmaps for a total of 500 bits, identifying 225 unique blocks
+23:39:39.537 23:39:39.537 Writing control file for anchor=/zfs-dedup-off at start of run.
+23:39:39.563 23:39:39.563 Completed control file for anchor=/zfs-dedup-off at start of run.  dirs: 30/0 files: 500/0 sizes: 500m/0/0/0
+23:39:39.567 23:39:39.567 Completed initializeFileAnchor for fsd1: 0.04
+23:39:39.593 23:39:39.592 Started 8 threads for fwd=format,fsd=fsd1
+23:39:39.593 23:39:39.593 Started 8 FwgThreads for rd=format_for_rd1 For loops: None
+23:39:39.593 23:39:39.593 Waiting for task synchronization
+23:39:39.593 23:39:39.593 Requesting full garbage collection
+23:39:39.594 23:39:39.593 GcTracker: cum:   0 intv:  0 ms:       0 mss:  0.00% Heap_MB max:  1024 curr:   130 used:    33 free:    97 
+23:39:39.604 23:39:39.603 GcTracker: cum:   1 intv:  1 ms:       8 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    23 free:   105 
+23:39:39.604 23:39:39.603 task_wait_start_complete() end
+
+<a name="_692342133"></a><i><b>23:39:40.003 Starting RD=format_for_rd1</b></i>
+
+23:39:40.005 23:39:40.005 task_run_all(): 9 tasks
+23:39:40.084 23:39:40.084 Erasing Data Validation map: fsd1
+23:39:40.084 23:39:40.084 Erasing Data Validation map: fsd1
+23:39:40.093 23:39:40.093 Message to master: anchor=/zfs-dedup-off mkdir complete.
+23:39:41.164 23:39:41.164 Message to master: anchor=/zfs-dedup-off create complete.
+23:39:41.289 23:39:41.288 
+23:39:41.289 23:39:41.289 Miscellaneous statistics:
+23:39:41.290 23:39:41.289 FILE_CREATES        Files created:                                  500
+23:39:41.290 23:39:41.290 DIRECTORY_CREATES   Directories created:                             30
+23:39:41.291 23:39:41.290 WRITE_OPENS         Files opened for write activity:                500
+23:39:41.291 23:39:41.291 DIR_EXISTS          Directory may not exist (yet):                    6
+23:39:41.291 23:39:41.291 FILE_CLOSES         Close requests:                                 500
+23:39:41.291 23:39:41.291 
+23:39:41.293 23:39:41.292 Dedup counters. Bytes written: 3.906g across: 1.758g (45.0%) on_sd: 0 (0.0%) dups: 2.148g (55.0%) resulting dedup=50.0% (2.00:1)
+23:39:41.298 23:39:41.297 Dedup options: 
+23:39:41.298 dedup_type:                            1
+23:39:41.298 dedup_ratio:                        2.00
+23:39:41.298 dedup_unit:                    1,048,576
+23:39:41.299 flipflop:                             no
+23:39:41.299 hot_dedup_sets:                        0
+23:39:41.299 hot_dedup_blocks:                      0
+23:39:41.299 dedup_sets_reqd:                      5%
+23:39:41.299 dedup_sets_used:                      25
+23:39:41.299 
+23:39:41.299 unique_blocks:                       225
+23:39:41.299 duplicate_blocks:                    275 (including 25 originals)
+23:39:41.299 dedup_pct:                         50.00
+23:39:41.299 dedup_adjusted:                    45.00
+23:39:41.299 total_size:                         500m
+23:39:41.299 unit_blocks:                         500
+23:39:41.299 
+23:39:41.300 Info only reliable if xfersize is multiple of dedupunit:
+23:39:41.300 uniques_written:                   1,800; expected 225; delta 1,575 
+23:39:41.300 duplicates_written:                2,200; expected 275; delta 1,925 
+23:39:41.300 Total writes:                      4,000; delta 3,500
+23:39:41.300 flipflops:                             0
+23:39:41.300 
+23:39:41.300 Dsim counts: Hash size:              250 (225 uniques + 25 sets)
+23:39:41.300 Dsim counts: Duplicates:             250
+23:39:41.300 Dsim counts: Ratio:                 2.00 (2.00000)
+23:39:41.300 
+23:39:41.300 23:39:41.298 Java Heap in MB. max: 1024.000; current:  128.000; used:   29.802; free:   98.198
+23:39:41.300 23:39:41.298 Maximum native memory allocation:   16,777,216; Current allocation:   16,777,216
+23:39:42.109 23:39:42.106 Writing control file for anchor=/zfs-dedup-off at end of run.
+23:39:42.134 23:39:42.134 Completed control file for anchor=/zfs-dedup-off at end of run.  dirs: 30/30 files: 500/500 sizes: 500m/500m/500/500m
+23:39:42.135 23:39:42.134 End of run
+23:39:42.135 23:39:42.134 **********
+23:39:42.135 
+23:39:42.135 
+23:39:42.231 23:39:42.231 Beginning of run setup
+23:39:42.232 23:39:42.231 **********************
+23:39:42.232 
+23:39:42.232 
+23:39:42.310 23:39:42.310 Starting initializeFileAnchor for rd=rd1 For loops: None anchor=fsd1
+23:39:42.310 23:39:42.310 Reading control file for anchor=/zfs-dedup-off
+23:39:42.311 23:39:42.311 Completed reading control file.
+23:39:42.311 23:39:42.311 Completed the creation of the directory list for /zfs-dedup-off: 30 directories.
+23:39:42.311 23:39:42.311 Generated 500 file names; total anchor size: 500m (524,288,000)
+23:39:42.311 23:39:42.311 No deletes and creates. Control file not cleared.
+23:39:42.311 23:39:42.311 During anchor creation for anchor=/zfs-dedup-off there were 30 directories and 500 files
+23:39:42.312 23:39:42.311 Completed initializeFileAnchor for fsd1: 0.00
+23:39:42.318 23:39:42.317 Started 2 threads for fwd=fwd1,fsd=fsd1,operation=read
+23:39:42.318 23:39:42.318 Started 2 FwgThreads for rd=rd1 For loops: None
+23:39:42.318 23:39:42.318 Waiting for task synchronization
+23:39:42.318 23:39:42.318 Requesting full garbage collection
+23:39:42.319 23:39:42.318 GcTracker: cum:   1 intv:  0 ms:       0 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    36 free:    92 
+23:39:42.332 23:39:42.332 GcTracker: cum:   2 intv:  1 ms:      13 mss:  0.00% Heap_MB max:  1024 curr:   128 used:    23 free:   105 
+23:39:42.332 23:39:42.332 task_wait_start_complete() end
+
+<a name="_578866604"></a><i><b>23:39:43.004 Starting RD=rd1; elapsed=30; fwdrate=max. For loops: None</b></i>
+
+23:39:43.005 23:39:43.005 task_run_all(): 3 tasks
+23:40:13.143 23:40:13.142 
+23:40:13.143 23:40:13.142 Miscellaneous statistics:
+23:40:13.143 23:40:13.143 READ_OPENS          Files opened for read activity:              43,629
+23:40:13.143 23:40:13.143 FILE_BUSY           File busy:                                       92
+23:40:13.143 23:40:13.143 FILE_CLOSES         Close requests:                              43,629
+23:40:13.143 23:40:13.143 
+23:40:13.143 23:40:13.143 Dedup counters. Bytes written: 0 across: 0 (NaN%) on_sd: 0 (NaN%) dups: 0 (NaN%) resulting dedup=NaN% (NaN:1)
+23:40:13.144 23:40:13.144 Dedup options: 
+23:40:13.144 dedup_type:                            1
+23:40:13.144 dedup_ratio:                        2.00
+23:40:13.144 dedup_unit:                    1,048,576
+23:40:13.144 flipflop:                             no
+23:40:13.144 hot_dedup_sets:                        0
+23:40:13.144 hot_dedup_blocks:                      0
+23:40:13.144 dedup_sets_reqd:                      5%
+23:40:13.144 dedup_sets_used:                      25
+23:40:13.144 
+23:40:13.144 unique_blocks:                       225
+23:40:13.144 duplicate_blocks:                    275 (including 25 originals)
+23:40:13.144 dedup_pct:                         50.00
+23:40:13.144 dedup_adjusted:                    45.00
+23:40:13.144 total_size:                         500m
+23:40:13.144 unit_blocks:                         500
+23:40:13.144 
+23:40:13.144 Info only reliable if xfersize is multiple of dedupunit:
+23:40:13.144 uniques_written:                       0; expected 225; delta -225 
+23:40:13.144 duplicates_written:                    0; expected 275; delta -275 
+23:40:13.144 Total writes:                          0; delta -500
+23:40:13.144 flipflops:                             0
+23:40:13.144 
+23:40:13.144 Dsim counts: Hash size:              250 (225 uniques + 25 sets)
+23:40:13.144 Dsim counts: Duplicates:             250
+23:40:13.144 Dsim counts: Ratio:                 2.00 (2.00000)
+23:40:13.145 
+23:40:13.145 23:40:13.144 Java Heap in MB. max: 1024.000; current:  128.000; used:   38.382; free:   89.618
+23:40:13.145 23:40:13.144 Maximum native memory allocation:   20,971,520; Current allocation:    4,194,304
+23:40:13.145 23:40:13.144 Writing control file for anchor=/zfs-dedup-off at end of run.
+23:40:13.152 23:40:13.152 Completed control file for anchor=/zfs-dedup-off at end of run.  dirs: 30/30 files: 500/500 sizes: 500m/500m/500/500m
+23:40:13.154 23:40:13.152 End of run
+23:40:13.154 23:40:13.152 **********
+23:40:13.154 
+23:40:13.154 
+23:40:14.370 23:40:14.370 Master is requesting slave shutdown
+23:40:14.370 23:40:14.370 Java Heap in MB. max: 1024.000; current:  128.000; used:   39.845; free:   88.155

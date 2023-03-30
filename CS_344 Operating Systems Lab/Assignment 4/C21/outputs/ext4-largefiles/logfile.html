@@ -1,0 +1,103 @@
+<title>Vdbench output/logfile.html</title><pre>
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+Vdbench distribution: vdbench50407
+
+12:12:36.871 input argument scanned: '-flargefiles-workload'
+12:12:36.871 input argument scanned: 'anchor=/ext4-pool'
+12:12:36.876 java.vendor                   Ubuntu
+12:12:36.876 java.home                     /usr/lib/jvm/java-11-openjdk-amd64
+12:12:36.876 java.vm.specification.version 11
+12:12:36.877 java.vm.version               11.0.17+8-post-Ubuntu-1ubuntu220.04
+12:12:36.877 java.vm.vendor                Ubuntu
+12:12:36.877 java.specification.version    11
+12:12:36.877 java.class.version            55.0
+12:12:36.877 user.name                     root
+12:12:36.877 user.dir                      /home/akshat/vdbench
+12:12:36.877 java.io.tmpdir                /tmp
+12:12:36.877 java.class.path               ./:./classes:./vdbench.jar
+12:12:36.878 os.name                       Linux
+12:12:36.878 os.arch                       amd64
+12:12:36.878 os.version                    5.15.0-52-generic
+12:12:36.878 sun.arch.data.model           64
+12:12:36.892 Flushing all reports
+12:12:36.955 Creating anchor for /ext4-pool,fsd=fsd1
+12:12:37.024 rd1 fsd to format: fsd1
+12:12:37.024 rd1 format on host: localhost
+12:12:37.034 Anchor size: anchor=/ext4-pool: dirs:            6; files:            8; bytes:     8.000g (8,589,934,592)
+12:12:37.227 Starting slave: /home/akshat/vdbench/vdbench SlaveJvm -m localhost -n localhost-10-221114-12.12.36.690 -l localhost-0 -p 5570   
+12:12:38.034 Slave localhost-0 (pid  37804) connected to master 37775
+12:12:38.093 All slaves are now connected
+
+Link to Run Definitions:         <A HREF="#_665576141">format_for_rd1 For loops: None</A>
+                                 <A HREF="#_1599771323">rd1 For loops: None</A>
+
+12:12:38.702 Flushing all reports
+12:12:38.737 slv=localhost-0 fwd=format fsd=fsd1 anchor=/ext4-pool threads= 8 skew= 0.00 operation=read 
+12:12:38.838 Waiting for synchronization of all slaves
+12:12:39.241 Synchronization of all slaves complete
+
+<a name="_665576141"></a><i><b>12:12:40.030 Starting RD=format_for_rd1</b></i>
+
+12:12:40.496 localhost-0: anchor=/ext4-pool mkdir complete.
+Nov 14, 2022 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+12:12:41.322            1 3098.0  1.191  39.8 17.3   0.0    0.0  0.000 3098.0  1.191  0.00 387.2 387.25  131072   6.0  0.059   6.0  0.053   0.0  0.000   8.0  1.295   0.0  0.000   8.0 50.667
+12:12:42.069            2 4175.0  1.857  66.4 38.8   0.0    0.0  0.000 4175.0  1.857  0.00 522.0 522.00  131103   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:43.077            3 3596.0  2.227  47.9 33.2   0.0    0.0  0.000 3596.0  2.227  0.00 449.5 449.50  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:44.046            4 2429.0  3.288  42.1 27.8   0.0    0.0  0.000 2429.0  3.288  0.00 303.6 303.62  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:45.029            5 3879.0  2.053  55.2 25.9   0.0    0.0  0.000 3879.0  2.053  0.00 484.8 484.88  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:46.018            6 4683.0  1.697  36.0 27.4   0.0    0.0  0.000 4683.0  1.697  0.00 585.3 585.38  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:47.019            7 4565.0  1.752  52.6 30.9   0.0    0.0  0.000 4565.0  1.752  0.00 570.6 570.62  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:48.013            8 4877.0  1.637  36.3 28.9   0.0    0.0  0.000 4877.0  1.637  0.00 609.6 609.62  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:49.019            9 4323.0  1.854  40.0 28.4   0.0    0.0  0.000 4323.0  1.854  0.00 540.3 540.38  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:50.024           10 3553.0  2.237  38.1 28.9   0.0    0.0  0.000 3553.0  2.237  0.00 444.1 444.12  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:51.011           11 3909.0  2.048  31.3 22.2   0.0    0.0  0.000 3909.0  2.048  0.00 488.6 488.62  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:52.058           12 3582.0  2.229  43.7 34.1   0.0    0.0  0.000 3582.0  2.229  0.00 447.7 447.75  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:53.014           13 3924.0  2.042  39.8 28.5   0.0    0.0  0.000 3924.0  2.042  0.00 490.5 490.50  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:54.028           14 4140.0  1.924  37.1 25.2   0.0    0.0  0.000 4140.0  1.924  0.00 517.5 517.50  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:55.023           15 3860.0  2.084  65.3 34.4   0.0    0.0  0.000 3860.0  2.084  0.00 482.5 482.50  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:56.045           16 3834.0  2.078  34.9 27.8   0.0    0.0  0.000 3834.0  2.078  0.00 479.2 479.25  131072   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:56.982 localhost-0: anchor=/ext4-pool create complete.
+12:12:57.023           17 3107.0  2.206  43.9 29.5   0.0    0.0  0.000 3107.0  2.206  0.00 388.3 388.38  131072   0.0  0.000   0.0  0.000   8.0  16356   0.0  0.000   8.0  2.689   0.0  0.000
+12:12:57.036     avg_2-17 3902.2  2.025  44.6 29.6   0.0    0.0  0.000 3902.2  2.025  0.00 487.7 487.79  131074   0.0  0.000   0.0  0.000   0.5  16356   0.0  0.000   0.5  2.689   0.0  0.000
+12:12:57.037     std_2-17  602.0  5.964                                 602.0  5.964                                                        2.0 109.26                2.0  7.479             
+12:12:57.037     max_2-17 4877.0 90.181                                4877.0 90.181                                   0.117        0.115   8.0  16473        4.594   8.0 21.199       81.955
+12:12:57.227 
+12:12:57.227 Miscellaneous statistics:
+12:12:57.228 (These statistics do not include activity between the last reported interval and shutdown.)
+12:12:57.228 FILE_CREATES        Files created:                                    8          0/sec
+12:12:57.229 DIRECTORY_CREATES   Directories created:                              6          0/sec
+12:12:57.229 FILE_DELETES        Files deleted:                                    8          0/sec
+12:12:57.229 DIRECTORY_DELETES   Directories deleted:                              6          0/sec
+12:12:57.230 WRITE_OPENS         Files opened for write activity:                  8          0/sec
+12:12:57.230 DIR_EXISTS          Directory may not exist (yet):                    5          0/sec
+12:12:57.230 FILE_CLOSES         Close requests:                                   8          0/sec
+12:12:57.231 
+12:12:57.231 Flushing all reports
+12:12:57.244 Java Heap in MB. max:  512.000; current:   66.000; used:   33.535; free:   32.465
+12:12:57.290 slv=localhost-0 fwd=fwd1 fsd=fsd1 anchor=/ext4-pool threads= 2 skew= 0.00 operation=create 
+12:12:57.317 Waiting for synchronization of all slaves
+12:12:57.740 Synchronization of all slaves complete
+
+<a name="_1599771323"></a><i><b>12:12:58.014 Starting RD=rd1; elapsed=30; fwdrate=max. For loops: None</b></i>
+
+12:12:58.504 
+12:12:58.504 Message from slave localhost-0: 
+12:12:58.505 Anchor: /ext4-pool
+12:12:58.505 Vdbench is trying to create a new file, but all files already exist, 
+12:12:58.505 and no threads are currently active deleting files
+12:12:58.505 FwgThread.canWeGetMoreFiles(): Shutting down threads for operation=create
+12:12:58.506 
+Nov 14, 2022 ..Interval.. .ReqstdOps... ...cpu%...  read ....read..... ....write.... ..mb/sec... mb/sec .xfer.. ...mkdir.... ...rmdir.... ...create... ....open.... ...close.... ...delete...
+                            rate   resp total  sys   pct   rate   resp   rate   resp  read write  total    size  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp  rate   resp
+12:12:59.024            1    0.0  0.000  21.8 2.66   0.0    0.0  0.000    0.0  0.000  0.00  0.00   0.00       0   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000   0.0  0.000
+12:12:59.042      avg_2-1 NaN  0.000 NaN NaN   0.0 NaN  0.000 NaN  0.000 NaN NaN NaN       0 NaN  0.000 NaN  0.000 NaN  0.000 NaN  0.000 NaN  0.000 NaN  0.000
+12:12:59.043      std_2-1                                                                                                                                                                    
+12:12:59.043      max_2-1                                                                                                                                                                    
+12:12:59.173 Miscellaneous statistics: All counters are zero
+12:12:59.174 Flushing all reports
+12:12:59.175 Java Heap in MB. max:  512.000; current:   66.000; used:   22.449; free:   43.551
+12:12:59.229 Ending Reporter
+12:12:59.855 Vdbench execution completed successfully. Output directory: /home/akshat/vdbench/output 
+
+12:13:00.865 Java Heap in MB. max:  512.000; current:   66.000; used:   19.373; free:   46.627

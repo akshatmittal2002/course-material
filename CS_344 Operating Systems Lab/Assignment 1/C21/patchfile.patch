@@ -1,0 +1,549 @@
+diff -ruN xv6-public/defs.h xv6-public-assign1/defs.h
+--- xv6-public/defs.h	2022-09-03 10:30:31.197427818 +0530
++++ xv6-public-assign1/defs.h	2022-09-05 00:56:15.705603954 +0530
+@@ -121,6 +121,10 @@
+ void            wakeup(void*);
+ void            yield(void);
+ 
++int             thread_create(void (*)(void*), void*, void*);
++int             thread_join(void);
++int             thread_exit(void);
++
+ // swtch.S
+ void            swtch(struct context**, struct context*);
+ 
+diff -ruN xv6-public/lock.h xv6-public-assign1/lock.h
+--- xv6-public/lock.h	1970-01-01 05:30:00.000000000 +0530
++++ xv6-public-assign1/lock.h	2022-09-05 18:58:51.690721438 +0530
+@@ -0,0 +1,40 @@
++#include "x86.h"
++
++struct thread_spinlock{
++        volatile uint lock;
++};
++
++void thread_spin_init(struct thread_spinlock *lk) {
++	lk->lock = 0;
++};
++
++void thread_spin_lock(struct thread_spinlock *lk) {
++	while (xchg(&lk->lock, 1) != 0)
++		;
++	__sync_synchronize();
++
++};
++
++void thread_spin_unlock(struct thread_spinlock *lk) {
++	__sync_synchronize();
++	asm volatile("movl $0, %0" : "+m" (lk->lock) : );
++};
++
++struct thread_mutex{
++        volatile uint lock;
++};
++
++void thread_mutex_init(struct thread_mutex *m) {
++	m->lock = 0;
++};
++
++void thread_mutex_lock(struct thread_mutex *m) {
++	while (xchg(&m->lock, 1) != 0)
++		sleep(1);
++	__sync_synchronize();
++};
++
++void thread_mutex_unlock(struct thread_mutex *m) {
++	__sync_synchronize();
++	asm volatile("movl $0, %0" : "+m" (m->lock) : );
++};
+\ No newline at end of file
+diff -ruN xv6-public/Makefile xv6-public-assign1/Makefile
+--- xv6-public/Makefile	2022-09-03 10:30:31.197427818 +0530
++++ xv6-public-assign1/Makefile	2022-09-05 18:28:06.466744145 +0530
+@@ -181,6 +181,9 @@
+ 	_usertests\
+ 	_wc\
+ 	_zombie\
++	_thread\
++	_thread_spinlock\
++	_thread_mutex\
+ 
+ fs.img: mkfs README $(UPROGS)
+ 	./mkfs fs.img README $(UPROGS)
+diff -ruN xv6-public/proc.c xv6-public-assign1/proc.c
+--- xv6-public/proc.c	2022-09-03 10:30:31.201341338 +0530
++++ xv6-public-assign1/proc.c	2022-09-05 20:43:08.806760939 +0530
+@@ -209,15 +209,10 @@
+   np->cwd = idup(curproc->cwd);
+ 
+   safestrcpy(np->name, curproc->name, sizeof(curproc->name));
+-
+   pid = np->pid;
+-
+   acquire(&ptable.lock);
+-
+   np->state = RUNNABLE;
+-
+   release(&ptable.lock);
+-
+   return pid;
+ }
+ 
+@@ -246,12 +241,10 @@
+   iput(curproc->cwd);
+   end_op();
+   curproc->cwd = 0;
+-
+   acquire(&ptable.lock);
+ 
+   // Parent might be sleeping in wait().
+   wakeup1(curproc->parent);
+-
+   // Pass abandoned children to init.
+   for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+     if(p->parent == curproc){
+@@ -299,13 +292,11 @@
+         return pid;
+       }
+     }
+-
+     // No point waiting if we don't have any children.
+     if(!havekids || curproc->killed){
+       release(&ptable.lock);
+       return -1;
+     }
+-
+     // Wait for children to exit.  (See wakeup1 call in proc_exit.)
+     sleep(curproc, &ptable.lock);  //DOC: wait-sleep
+   }
+@@ -532,3 +523,151 @@
+     cprintf("\n");
+   }
+ }
++
++int
++thread_create(void (*fcn)(void *), void * arg, void * stack)
++{
++	if ((uint) stack == 0)
++  {
++		return -1;
++	}
++	int i, pid;
++	struct proc *np;
++	struct proc *curproc = myproc();
++	
++  // Allocate process.
++  if ((np = allocproc()) == 0)
++  {
++    return -1;
++  }
++
++	np->pgdir = curproc->pgdir;
++	np->sz = curproc->sz;
++	np->parent = curproc;
++	*np->tf = *curproc->tf;
++	
++  // Mark this proc as a thread
++	np->is_thread = 1;
++	
++  // Clear %eax so that fork returns 0 in the child.
++	np->tf->eax = 0;
++	
++  // set function
++	np->tf->eip = (int) fcn;
++	np->tf->esp = (int) stack + 4096;
++	np->tf->esp -= 4;
++	*((int*) (np->tf->esp)) = (int) arg;
++	np->tf->esp -= 4;
++	*((int*) (np->tf->esp)) = 0xffffffff;
++
++	for (i = 0; i < NOFILE; i++)
++  {
++		if (curproc->ofile[i])
++		{
++      np->ofile[i] = filedup(curproc->ofile[i]);
++    }
++  }
++	np->cwd = idup(curproc->cwd);
++	
++  safestrcpy(np->name, curproc->name, sizeof(curproc->name));
++	pid = np->pid;
++	acquire(&ptable.lock);
++	np->state = RUNNABLE;
++	release(&ptable.lock);
++	return pid;
++}
++
++int
++thread_join(void)
++{
++	struct proc *p;
++	int havekids, pid;
++	struct proc *curproc = myproc();
++
++	acquire(&ptable.lock);
++	
++  for (;;)
++  {
++		// Scan through table looking for exited children.
++		havekids = 0;
++		for (p = ptable.proc; p < &ptable.proc[NPROC]; p++)
++    {
++			if (p->is_thread == 0 || p->parent != curproc)
++			{
++        continue;
++      }
++			havekids = 1;
++			if (p->state == ZOMBIE)
++      {
++				// Found one.
++				pid = p->pid;
++				//kfree(p->kstack);
++				p->kstack = 0;
++				//freevm(p->pgdir);
++				p->pid = 0;
++				p->parent = 0;
++				p->name[0] = 0;
++				p->killed = 0;
++				p->state = UNUSED;
++				release(&ptable.lock);
++				return pid;
++			}
++		}
++		// No point waiting if we don't have any children.
++		if (!havekids || curproc->killed)
++    {
++			release(&ptable.lock);
++			return -1;
++		}
++
++		// Wait for children to exit.  (See wakeup1 call in proc_exit.)
++		sleep(curproc, &ptable.lock);  //DOC: wait-sleep
++	}
++}
++
++int
++thread_exit(void)
++{
++	struct proc *curproc = myproc();
++	struct proc *p;
++	int fd;
++
++	if (curproc == initproc)
++	{
++    panic("init exiting");
++  }
++
++	// Close all open files.
++	for (fd = 0; fd < NOFILE; fd++)
++  {
++		if (curproc->ofile[fd])
++    {
++			fileclose(curproc->ofile[fd]);
++			curproc->ofile[fd] = 0;
++		}
++	}
++	begin_op();
++	iput(curproc->cwd);
++	end_op();
++	curproc->cwd = 0;
++	
++  acquire(&ptable.lock);
++  // Parent might be sleeping in wait().
++	wakeup1(curproc->parent);
++	
++  // Pass abandoned children to init.
++	for (p = ptable.proc; p < &ptable.proc[NPROC]; p++)
++  {
++		if (p->parent == curproc)
++    {
++			p->parent = initproc;
++			if (p->state == ZOMBIE)
++				wakeup1(initproc);
++		}
++	}
++  
++	// Jump into the scheduler, never to return.
++	curproc->state = ZOMBIE;
++	sched();
++	panic("zombie exit");
++}
+\ No newline at end of file
+diff -ruN xv6-public/proc.h xv6-public-assign1/proc.h
+--- xv6-public/proc.h	2022-09-03 10:30:31.201341338 +0530
++++ xv6-public-assign1/proc.h	2022-09-04 18:01:10.594152063 +0530
+@@ -49,6 +49,7 @@
+   struct file *ofile[NOFILE];  // Open files
+   struct inode *cwd;           // Current directory
+   char name[16];               // Process name (debugging)
++  int is_thread;
+ };
+ 
+ // Process memory is laid out contiguously, low addresses first:
+diff -ruN xv6-public/syscall.c xv6-public-assign1/syscall.c
+--- xv6-public/syscall.c	2022-09-03 10:30:31.201341338 +0530
++++ xv6-public-assign1/syscall.c	2022-09-03 10:59:35.525094680 +0530
+@@ -104,6 +104,10 @@
+ extern int sys_write(void);
+ extern int sys_uptime(void);
+ 
++extern int sys_thread_create(void);
++extern int sys_thread_join(void);
++extern int sys_thread_exit(void);
++
+ static int (*syscalls[])(void) = {
+ [SYS_fork]    sys_fork,
+ [SYS_exit]    sys_exit,
+@@ -126,6 +130,9 @@
+ [SYS_link]    sys_link,
+ [SYS_mkdir]   sys_mkdir,
+ [SYS_close]   sys_close,
++[SYS_thread_create] sys_thread_create,
++[SYS_thread_join] sys_thread_join,
++[SYS_thread_exit] sys_thread_exit,
+ };
+ 
+ void
+diff -ruN xv6-public/syscall.h xv6-public-assign1/syscall.h
+--- xv6-public/syscall.h	2022-09-03 10:30:31.201341338 +0530
++++ xv6-public-assign1/syscall.h	2022-09-03 10:59:30.469061103 +0530
+@@ -20,3 +20,6 @@
+ #define SYS_link   19
+ #define SYS_mkdir  20
+ #define SYS_close  21
++#define SYS_thread_create 22
++#define SYS_thread_join   23
++#define SYS_thread_exit   24
+\ No newline at end of file
+diff -ruN xv6-public/sysproc.c xv6-public-assign1/sysproc.c
+--- xv6-public/sysproc.c	2022-09-03 10:30:31.201341338 +0530
++++ xv6-public-assign1/sysproc.c	2022-09-05 01:12:50.752989223 +0530
+@@ -89,3 +89,30 @@
+   release(&tickslock);
+   return xticks;
+ }
++
++// Create a new kernel thread
++int
++sys_thread_create(void)
++{
++  // These functions do not take arguments directly
++  // Hence using these lines, we read arguments.
++	void (*fcn)(void*), *arg, *stack;
++	argptr(0, (void*) &fcn, sizeof(void (*)(void *)));
++	argptr(1, (void*) &arg, sizeof(void *));
++	argptr(2, (void*) &stack, sizeof(void *));
++	return thread_create(fcn, arg, stack);
++}
++
++// Wait for child thread to complete
++int
++sys_thread_join(void)
++{
++	return thread_join();
++}
++
++// Terminate a kernel thread
++int
++sys_thread_exit(void)
++{
++	return thread_exit();
++}
+\ No newline at end of file
+diff -ruN xv6-public/thread.c xv6-public-assign1/thread.c
+--- xv6-public/thread.c	1970-01-01 05:30:00.000000000 +0530
++++ xv6-public-assign1/thread.c	2022-09-05 01:27:49.030448258 +0530
+@@ -0,0 +1,49 @@
++#include "types.h"
++#include "stat.h"
++#include "user.h"
++struct balance
++{
++  char name[32];
++  int amount;
++};
++volatile int total_balance = 0;
++volatile unsigned int delay (unsigned int d)
++{
++	unsigned int i;
++	for (i = 0; i < d; i++)
++	{
++		__asm volatile( "nop" ::: );
++	}
++	return i;
++}
++void do_work(void *arg)
++{
++	int i;
++	int old;
++	struct balance *b = (struct balance*) arg;
++	printf(1, "Starting do_work: s:%s\n", b->name);
++	for (i = 0; i < b->amount; i++)
++	{
++		old = total_balance;
++		delay(100000);
++		total_balance = old + 1;
++	}
++	printf(1, "Done s:%x\n", b->name);
++	thread_exit();
++	return;
++}
++int main(int argc, char *argv[]) {
++	struct balance b1 = {"b1", 3200};
++	struct balance b2 = {"b2", 2800};
++	void *s1, *s2;
++	int t1, t2, r1, r2;
++	s1 = malloc(4096);
++	s2 = malloc(4096);
++	t1 = thread_create(do_work, (void*)&b1, s1);
++	t2 = thread_create(do_work, (void*)&b2, s2);
++	r1 = thread_join();
++	r2 = thread_join();
++	printf(1, "Threads finished: (%d):%d, (%d):%d, shared balance:%d\n",
++	t1, r1, t2, r2, total_balance);
++	exit();
++}
+\ No newline at end of file
+diff -ruN xv6-public/thread_mutex.c xv6-public-assign1/thread_mutex.c
+--- xv6-public/thread_mutex.c	1970-01-01 05:30:00.000000000 +0530
++++ xv6-public-assign1/thread_mutex.c	2022-09-05 19:20:31.032242031 +0530
+@@ -0,0 +1,54 @@
++#include "types.h"
++#include "stat.h"
++#include "user.h"
++#include "lock.h"
++struct thread_mutex ml;
++struct balance
++{
++  char name[32];
++  int amount;
++};
++volatile int total_balance = 0;
++volatile unsigned int delay (unsigned int d)
++{
++	unsigned int i;
++	for (i = 0; i < d; i++)
++	{
++		__asm volatile( "nop" ::: );
++	}
++	return i;
++}
++void do_work(void *arg)
++{
++	int i;
++	int old;
++	struct balance *b = (struct balance*) arg;
++	printf(1, "Starting do_work: s:%s\n", b->name);
++	for (i = 0; i < b->amount; i++)
++	{
++		thread_mutex_lock(&ml);
++		old = total_balance;
++		delay(100000);
++		total_balance = old + 1;
++		thread_mutex_unlock(&ml);
++	}
++	printf(1, "Done s:%x\n", b->name);
++	thread_exit();
++	return;
++}
++int main(int argc, char *argv[]) {
++	thread_mutex_init(&ml);
++	struct balance b1 = {"b1", 3200};
++	struct balance b2 = {"b2", 2800};
++	void *s1, *s2;
++	int t1, t2, r1, r2;
++	s1 = malloc(4096);
++	s2 = malloc(4096);
++	t1 = thread_create(do_work, (void*)&b1, s1);
++	t2 = thread_create(do_work, (void*)&b2, s2);
++	r1 = thread_join();
++	r2 = thread_join();
++	printf(1, "Threads finished: (%d):%d, (%d):%d, shared balance:%d\n",
++	t1, r1, t2, r2, total_balance);
++	exit();
++}
+\ No newline at end of file
+diff -ruN xv6-public/thread_spinlock.c xv6-public-assign1/thread_spinlock.c
+--- xv6-public/thread_spinlock.c	1970-01-01 05:30:00.000000000 +0530
++++ xv6-public-assign1/thread_spinlock.c	2022-09-05 18:27:02.269474859 +0530
+@@ -0,0 +1,54 @@
++#include "types.h"
++#include "stat.h"
++#include "user.h"
++#include "lock.h"
++struct thread_spinlock lock;
++struct balance
++{
++  char name[32];
++  int amount;
++};
++volatile int total_balance = 0;
++volatile unsigned int delay (unsigned int d)
++{
++	unsigned int i;
++	for (i = 0; i < d; i++)
++	{
++		__asm volatile( "nop" ::: );
++	}
++	return i;
++}
++void do_work(void *arg)
++{
++	int i;
++	int old;
++	struct balance *b = (struct balance*) arg;
++	printf(1, "Starting do_work: s:%s\n", b->name);
++	for (i = 0; i < b->amount; i++)
++	{
++		thread_spin_lock(&lock);
++		old = total_balance;
++		delay(100000);
++		total_balance = old + 1;
++		thread_spin_unlock(&lock);
++	}
++	printf(1, "Done s:%x\n", b->name);
++	thread_exit();
++	return;
++}
++int main(int argc, char *argv[]) {
++	thread_spin_init(&lock);
++	struct balance b1 = {"b1", 3200};
++	struct balance b2 = {"b2", 2800};
++	void *s1, *s2;
++	int t1, t2, r1, r2;
++	s1 = malloc(4096);
++	s2 = malloc(4096);
++	t1 = thread_create(do_work, (void*)&b1, s1);
++	t2 = thread_create(do_work, (void*)&b2, s2);
++	r1 = thread_join();
++	r2 = thread_join();
++	printf(1, "Threads finished: (%d):%d, (%d):%d, shared balance:%d\n",
++	t1, r1, t2, r2, total_balance);
++	exit();
++}
+\ No newline at end of file
+diff -ruN xv6-public/user.h xv6-public-assign1/user.h
+--- xv6-public/user.h	2022-09-03 10:30:31.205254858 +0530
++++ xv6-public-assign1/user.h	2022-09-03 11:00:15.441360577 +0530
+@@ -24,6 +24,10 @@
+ int sleep(int);
+ int uptime(void);
+ 
++int thread_create(void (*)(void*), void *, void *);
++int thread_join(void);
++int thread_exit(void);
++
+ // ulib.c
+ int stat(const char*, struct stat*);
+ char* strcpy(char*, const char*);
+diff -ruN xv6-public/usys.S xv6-public-assign1/usys.S
+--- xv6-public/usys.S	2022-09-03 10:30:31.205254858 +0530
++++ xv6-public-assign1/usys.S	2022-09-03 11:00:31.853470272 +0530
+@@ -29,3 +29,6 @@
+ SYSCALL(sbrk)
+ SYSCALL(sleep)
+ SYSCALL(uptime)
++SYSCALL(thread_create)
++SYSCALL(thread_join)
++SYSCALL(thread_exit)
+\ No newline at end of file

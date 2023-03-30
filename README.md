@@ -40,6 +40,13 @@ My Courses of IIT Guwahati, Computer Science and Engineering Department
 - HS123: Game Theory and Economics
 
 ## Semester 5
+- MA321: Optimization
+- CS341: Computer Networks
+- CS342: Computer Networks Lab
+- CS343: Operating Systems
+- CS344: Operating Systems Lab
+- CS560: Virtual and Augmented Reality Systems
+- HS155: Introductory Mathematical Economics
 
 ## Semester 6
 

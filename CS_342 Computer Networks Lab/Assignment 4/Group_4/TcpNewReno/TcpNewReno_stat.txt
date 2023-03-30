@@ -1,0 +1,9 @@
+
+Using TcpNewReno TCP congestion control algorithm. Flow monitor statistics:
+
+Transfered Packets: 153
+Transfered Bytes: 88896
+Offered Load: 0.398884 Mbps
+Received Packets: 140
+Received Bytes: 81252
+Throughput: 0.368908 Mbps

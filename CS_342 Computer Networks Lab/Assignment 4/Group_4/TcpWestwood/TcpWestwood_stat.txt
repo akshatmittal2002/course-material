@@ -1,0 +1,9 @@
+
+Using TcpWestwood TCP congestion control algorithm. Flow monitor statistics:
+
+Transfered Packets: 147
+Transfered Bytes: 85368
+Offered Load: 0.379967 Mbps
+Received Packets: 136
+Received Bytes: 78900
+Throughput: 0.354368 Mbps
