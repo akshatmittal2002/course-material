@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1633424875 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\bst_node.cpp
+	"BST_node.h"
+
+1633424836 c:\users\mitta\desktop\documents\cs_204\sourcecode\bst_node.h
+	<iostream>
+
+1634546640 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\bst.cpp
+	"BST.h"
+
+1634546453 c:\users\mitta\desktop\documents\cs_204\sourcecode\bst.h
+	"../SourceCode/BST_node.h"
+	<iostream>
+
+1634546713 source:c:\users\mitta\desktop\documents\cs_204\binarysearchtree\main.cpp
+	<iostream>
+	"../SourceCode/BST.h"
+

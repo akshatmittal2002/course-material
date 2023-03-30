@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1630735154 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\array_adt.cpp
+	"Array_ADT.h"
+	<iostream>
+
+1630429778 c:\users\mitta\desktop\documents\cs_204\sourcecode\array_adt.h
+
+1630737752 source:c:\users\mitta\desktop\documents\cs_204\stackadt\main.cpp
+	<iostream>
+	"..\SourceCode\Stack_ADT.h"
+
+1630737764 c:\users\mitta\desktop\documents\cs_204\sourcecode\stack_adt.h
+	"..\SourceCode\Array_ADT.h"
+
+1630737752 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\stack_adt.cpp
+	"Stack_ADT.h"
+	<iostream>
+

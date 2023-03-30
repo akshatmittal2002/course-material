@@ -21,6 +21,14 @@ My Courses of IIT Guwahati, Computer Science and Engineering Department
 - ME110: Workshop
 
 ## Semester 3
+- MA222: Elementary Number Theory and Algebra
+- MA225: Probability Theory and Random Processes
+- CS201: Discrete Mathematics
+- CS203: Algorithms and Data Structures
+- CS204: Algorithms and Data Structures Lab
+- CS221: Digital Design
+- CS242: System Software Lab
+- HS200: Sustainable Development Goals
 
 ## Semester 4
 

@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+%Including packages to be used.
+\usepackage{amsmath}
+\usepackage[left=3.5cm,right=3.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+%Make title with Title , author and date
+\title{Hello World!}
+\author{Akshat Mittal}
+\date{November 17, 2021}
+%Begin document
+\begin{document}
+%Remove page number
+\pagenumbering{gobble}
+%Print title
+\maketitle
+%Start section 1
+\section{Getting Started}
+
+\textbf{Hello World!} Today I am learning \LaTeX{}. \LaTeX{} is a great program for writing math. I can write in line math such as $a^2+b^2=c^2$. I can also give equations
+their own space:
+%Print equation 1.
+\begin{equation}
+\gamma^2+\theta^2=\omega^2 \label{eq1}
+\end{equation}
+%Flush left space. If we donot do this, our text will be indented slightly.
+\begin{flushleft}
+``Maxwell's equations" are named for James Clark Maxwell and are as follow:
+%Write 4 equaltions of Maxwell, aligned with '=' and text; give equation numbers.
+\begin{align}
+\vec{\nabla}\cdot\vec{E}\quad&=\quad\frac{\rho}{\epsilon_0} &&\text{Gauss's Law} \label{eq2}\\
+\vec{\nabla}\cdot\vec{B}\quad&=\quad 0 &&\text{Gauss's Law for Magnetism} \label{eq3}\\
+\vec{\nabla}\times\vec{E}\quad&=\quad -\frac{\partial \vec{B}}{\partial{t}} &&\text{Faraday's Law of Induction}\label{eq4}\\
+\vec{\nabla}\times\vec{B}\quad&=\quad\mu_0\left(\epsilon_0\frac{\partial \vec{E}}{\partial t} + \vec{J}\right) &&\text{Ampere's Circuital Law}\label{eq5}
+\end{align}
+
+Equations $\color{blue}{2}$, $\color{blue}{3}$, $\color{blue}{4}$, and $\color{blue}{5}$ are some of the most important in Physics.
+
+%Start section 2.
+\section{What about Matrix Equations?}
+
+%Print matrix equation.
+\[
+\begin{pmatrix}
+{a_{11}} & {a_{12}} & \dots & {a_{1n}} \\
+{a_{21}} & {a_{22}} & \dots & {a_{2n}} \\
+ \vdots &\vdots & \ddots &\vdots\\
+{a_{n1}} & {a_{n2}} & \dots & {a_{nn}}
+\end{pmatrix}
+\begin{bmatrix}
+{v_1}\\
+{v_2}\\
+ \vdots\\
+{v_n}
+\end{bmatrix}
+=
+\begin{matrix}
+{w_1}\\
+{w_2}\\
+ \vdots\\
+{w_n}
+\end{matrix}
+\]
+
+%End flush and end document.
+\end{flushleft}
+\end{document}

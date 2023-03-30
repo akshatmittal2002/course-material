@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1631100450 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\array_adt.cpp
+	"Array_ADT.h"
+
+1630915463 c:\users\mitta\desktop\documents\cs_204\sourcecode\array_adt.h
+
+1630736120 source:c:\users\mitta\desktop\documents\cs_204\arrayadt\main.cpp
+	<iostream>
+	"..\SourceCode\Array_ADT.h"
+

@@ -1,0 +1,75 @@
+\documentclass[12pt]{article}
+%Include various packages
+\usepackage{amsmath}
+\usepackage[top=2cm, bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+%Begin document
+\begin{document}
+\pagenumbering{gobble}
+
+%Triple integral equation
+$$\iiint\limits_{V}f(x,y,z){\mathrm{d}}V = F$$
+
+%Limit equation of L-H Rule
+$$\frac{{\mathrm{d}}x}{{\mathrm{d}}y}\ =\ x^{\prime}\ =\ \lim\limits_{h\to 0} \frac{f(x+h)-f(x)}{h}$$
+
+%Multiple definition function; |x|
+\[|x|=\begin{cases}
+-x, & \text{if $x<0$} \\
+x, & \text{if $x \geq 0$}
+\end{cases}\]
+
+%Sin Cos equation
+$$F(x)=A_0+\sum_{n=1}^N\left[A_n\cos\left(\frac{2\pi nx}{P}\right)+B_n\sin\left(\frac{2\pi nx}{P}\right)\right]$$
+
+%Summation- Product equation.
+$$\sum_n \frac{1}{n^s} = \prod_p \frac{1}{1-\frac{1}{p^s}}$$
+
+%Equation for dammed oscillation.
+$$m\ddot{x} +c\dot{x} +kx= F_0\sin(2\pi ft)$$
+%Solving f(x) aligning with '='
+\begin{align*}
+f(x)\quad &=\quad x^2+3x+5x^2+8+6x\\
+&=\quad 6x^2+9x+8\\
+&=\quad x(6x+9)+8
+\end{align*}
+$$X=\frac{F_0}{k}\frac{1}{\sqrt{(1-r^2)^2+(2\zeta r)^2}}$$
+
+$$G_{\mu\nu}\equiv R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu}$$
+
+%Chemical equations
+$$\mathrm{6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2}$$
+
+$$\mathrm{{SO_4}^{2-}+Ba^{2+} \rightarrow BaSO_4}$$
+
+%Matrix equation
+\[
+\begin{pmatrix}
+{a_{11}} & {a_{12}} & \dots & {a_{1n}} \\
+{a_{21}} & {a_{22}} & \dots & {a_{2n}} \\
+ \vdots &\vdots & \ddots &\vdots\\
+{a_{n1}} & {a_{n2}} & \dots & {a_{nn}}
+\end{pmatrix}
+\begin{pmatrix}
+{v_1}\\
+{v_2}\\
+ \vdots\\
+{v_n}
+\end{pmatrix}
+=
+\begin{pmatrix}
+{w_1}\\
+{w_2}\\
+ \vdots\\
+{w_n}
+\end{pmatrix}
+\]
+
+%Equation with partial derivative and nabla.
+$$\frac{\partial{\mathrm{\textbf{u}}}}{\partial t} + ({\mathrm{\textbf{u}}}\cdot\nabla){\mathrm{\textbf{u}}}-\nu\nabla^2({\mathrm{\textbf{u}}})=-\nabla {\mathrm{\textbf{h}}}$$
+
+%Latin alphabets
+$$\alpha A\beta B\gamma\Gamma\delta\Delta\pi\Pi\omega\Omega$$
+
+%End of document
+\end{document}

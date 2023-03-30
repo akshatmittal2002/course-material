@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1635147958 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\rbt.cpp
+	"RBT.h"
+
+1635145209 c:\users\mitta\desktop\documents\cs_204\sourcecode\rbt.h
+	"../SourceCode/RBT_node.h"
+	<iostream>
+
+1634547279 c:\users\mitta\desktop\documents\cs_204\sourcecode\rbt_node.h
+	<iostream>
+
+1634548236 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\rbt_node.cpp
+	"RBT_node.h"
+
+1635148440 source:c:\users\mitta\desktop\documents\cs_204\redblacktree\main.cpp
+	<iostream>
+	"../SourceCode/RBT.h"
+

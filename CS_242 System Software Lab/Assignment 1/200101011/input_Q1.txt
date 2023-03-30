@@ -1,0 +1,6 @@
+dd	1	3
+mff	4	4
+lgse	3	4
+zsw	6	6
+dhd	4	5
+a	8	8

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1631106977 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\sll_adt.cpp
+	"SLL_ADT.h"
+	<iostream>
+
+1631106977 c:\users\mitta\desktop\documents\cs_204\sourcecode\sll_adt.h
+	"..\SourceCode\SLL_Node.h"
+
+1631104357 c:\users\mitta\desktop\documents\cs_204\sourcecode\sll_node.h
+
+1631104357 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\sll_node.cpp
+	"SLL_Node.h"
+
+1631107472 source:c:\users\mitta\desktop\documents\cs_204\singlylinkedlistadt\main.cpp
+	<iostream>
+	"..\SourceCode\SLL_ADT.h"
+

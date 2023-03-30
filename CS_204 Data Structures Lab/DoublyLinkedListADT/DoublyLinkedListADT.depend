@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1631109233 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\dll_adt.cpp
+	"DLL_ADT.h"
+	<iostream>
+
+1631108687 c:\users\mitta\desktop\documents\cs_204\sourcecode\dll_adt.h
+	"..\SourceCode\DLL_Node.h"
+
+1631108641 c:\users\mitta\desktop\documents\cs_204\sourcecode\dll_node.h
+
+1631108680 source:c:\users\mitta\desktop\documents\cs_204\sourcecode\dll_node.cpp
+	"DLL_Node.h"
+
+1631109287 source:c:\users\mitta\desktop\documents\cs_204\doublylinkedlistadt\main.cpp
+	<iostream>
+	"..\SourceCode\DLL_ADT.h"
+
