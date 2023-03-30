@@ -1,0 +1,279 @@
+ISim log file
+Running: /home/ise/Desktop/CS_224/Lab8/test2_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Desktop/CS_224/Lab8/test2_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: File "/home/ise/Desktop/CS_224/Lab8/test2.v" Line 9.  For instance test2/uut/, width 6 of formal port MAR is not equal to width 5 of actual signal MAR.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Current_state=x, MAR= x, MBR=  x, Done=x
+Current_state=0, MAR= 0, MBR=100, Done=0
+Current_state=1, MAR= 0, MBR=  0, Done=0
+Current_state=2, MAR= 0, MBR=  1, Done=0
+Current_state=3, MAR= 0, MBR=  1, Done=0
+Current_state=4, MAR= 1, MBR=  1, Done=0
+Current_state=1, MAR= 1, MBR=  0, Done=0
+Current_state=2, MAR= 1, MBR=  1, Done=0
+Current_state=3, MAR= 1, MBR=  1, Done=0
+Current_state=4, MAR= 2, MBR=  1, Done=0
+Current_state=1, MAR= 2, MBR=  0, Done=0
+Current_state=2, MAR= 2, MBR=  1, Done=0
+Current_state=3, MAR= 2, MBR=  1, Done=0
+Current_state=4, MAR= 3, MBR=  1, Done=0
+Current_state=1, MAR= 3, MBR=  0, Done=0
+Current_state=2, MAR= 3, MBR=  1, Done=0
+Current_state=3, MAR= 3, MBR=  1, Done=0
+Current_state=4, MAR= 4, MBR=  1, Done=0
+Current_state=1, MAR= 4, MBR=  0, Done=0
+Current_state=2, MAR= 4, MBR=  1, Done=0
+Current_state=3, MAR= 4, MBR=  1, Done=0
+Current_state=4, MAR= 5, MBR=  1, Done=0
+Current_state=1, MAR= 5, MBR=  0, Done=0
+Current_state=2, MAR= 5, MBR=  1, Done=0
+Current_state=3, MAR= 5, MBR=  1, Done=0
+Current_state=4, MAR= 6, MBR=  1, Done=0
+Current_state=1, MAR= 6, MBR=  0, Done=0
+Current_state=2, MAR= 6, MBR=  1, Done=0
+Current_state=3, MAR= 6, MBR=  1, Done=0
+Current_state=4, MAR= 7, MBR=  1, Done=0
+Current_state=1, MAR= 7, MBR=  0, Done=0
+Current_state=2, MAR= 7, MBR=  1, Done=0
+Current_state=3, MAR= 7, MBR=  1, Done=0
+Current_state=4, MAR= 8, MBR=  1, Done=0
+Current_state=1, MAR= 8, MBR=  0, Done=0
+Current_state=2, MAR= 8, MBR=  1, Done=0
+Current_state=3, MAR= 8, MBR=  1, Done=0
+Current_state=4, MAR= 9, MBR=  1, Done=0
+Current_state=1, MAR= 9, MBR=  0, Done=0
+Current_state=2, MAR= 9, MBR=  1, Done=0
+Current_state=3, MAR= 9, MBR=  1, Done=0
+Current_state=4, MAR=10, MBR=  1, Done=0
+Current_state=1, MAR=10, MBR=  0, Done=0
+Current_state=2, MAR=10, MBR=  1, Done=0
+Current_state=3, MAR=10, MBR=  1, Done=0
+Current_state=4, MAR=11, MBR=  1, Done=0
+Current_state=1, MAR=11, MBR=  0, Done=0
+Current_state=2, MAR=11, MBR=  1, Done=0
+Current_state=3, MAR=11, MBR=  1, Done=0
+Current_state=4, MAR=12, MBR=  1, Done=0
+Current_state=1, MAR=12, MBR=  0, Done=0
+Current_state=2, MAR=12, MBR=  1, Done=0
+Current_state=3, MAR=12, MBR=  1, Done=0
+Current_state=4, MAR=13, MBR=  1, Done=0
+Current_state=1, MAR=13, MBR=  0, Done=0
+Current_state=2, MAR=13, MBR=  1, Done=0
+Current_state=3, MAR=13, MBR=  1, Done=0
+Current_state=4, MAR=14, MBR=  1, Done=0
+Current_state=1, MAR=14, MBR=  0, Done=0
+Current_state=2, MAR=14, MBR=  1, Done=0
+Current_state=3, MAR=14, MBR=  1, Done=0
+Current_state=4, MAR=15, MBR=  1, Done=0
+Current_state=1, MAR=15, MBR=  0, Done=0
+Current_state=2, MAR=15, MBR=  1, Done=0
+Current_state=3, MAR=15, MBR=  1, Done=0
+Current_state=4, MAR=16, MBR=  1, Done=0
+Current_state=1, MAR=16, MBR=  0, Done=0
+Current_state=2, MAR=16, MBR=  1, Done=0
+Current_state=3, MAR=16, MBR=  1, Done=0
+Current_state=4, MAR=17, MBR=  1, Done=0
+Current_state=1, MAR=17, MBR=  0, Done=0
+Current_state=2, MAR=17, MBR=  1, Done=0
+Current_state=3, MAR=17, MBR=  1, Done=0
+Current_state=4, MAR=18, MBR=  1, Done=0
+Current_state=1, MAR=18, MBR=  0, Done=0
+Current_state=2, MAR=18, MBR=  1, Done=0
+Current_state=3, MAR=18, MBR=  1, Done=0
+Current_state=4, MAR=19, MBR=  1, Done=0
+Current_state=1, MAR=19, MBR=  0, Done=0
+Current_state=2, MAR=19, MBR=  1, Done=0
+Current_state=3, MAR=19, MBR=  1, Done=0
+Current_state=4, MAR=20, MBR=  1, Done=0
+Current_state=1, MAR=20, MBR=  0, Done=0
+Current_state=2, MAR=20, MBR=  1, Done=0
+Current_state=3, MAR=20, MBR=  1, Done=0
+Current_state=4, MAR=21, MBR=  1, Done=0
+Current_state=1, MAR=21, MBR=  0, Done=0
+Current_state=2, MAR=21, MBR=  1, Done=0
+Current_state=3, MAR=21, MBR=  1, Done=0
+Current_state=4, MAR=22, MBR=  1, Done=0
+Current_state=1, MAR=22, MBR=  0, Done=0
+Current_state=2, MAR=22, MBR=  1, Done=0
+Current_state=3, MAR=22, MBR=  1, Done=0
+Current_state=4, MAR=23, MBR=  1, Done=0
+Current_state=1, MAR=23, MBR=  0, Done=0
+Current_state=2, MAR=23, MBR=  1, Done=0
+Current_state=3, MAR=23, MBR=  1, Done=0
+Current_state=4, MAR=24, MBR=  1, Done=0
+Current_state=1, MAR=24, MBR=  0, Done=0
+Current_state=2, MAR=24, MBR=  1, Done=0
+Current_state=3, MAR=24, MBR=  1, Done=0
+Current_state=4, MAR=25, MBR=  1, Done=0
+Current_state=1, MAR=25, MBR=  0, Done=0
+Current_state=2, MAR=25, MBR=  1, Done=0
+Current_state=3, MAR=25, MBR=  1, Done=0
+Current_state=4, MAR=26, MBR=  1, Done=0
+Current_state=1, MAR=26, MBR=  0, Done=0
+Current_state=2, MAR=26, MBR=  1, Done=0
+Current_state=3, MAR=26, MBR=  1, Done=0
+Current_state=4, MAR=27, MBR=  1, Done=0
+Current_state=1, MAR=27, MBR=  0, Done=0
+Current_state=2, MAR=27, MBR=  1, Done=0
+Current_state=3, MAR=27, MBR=  1, Done=0
+Current_state=4, MAR=28, MBR=  1, Done=0
+Current_state=1, MAR=28, MBR=  0, Done=0
+Current_state=2, MAR=28, MBR=  1, Done=0
+Current_state=3, MAR=28, MBR=  1, Done=0
+Current_state=4, MAR=29, MBR=  1, Done=0
+Current_state=1, MAR=29, MBR=  0, Done=0
+Current_state=2, MAR=29, MBR=  1, Done=0
+Current_state=3, MAR=29, MBR=  1, Done=0
+Current_state=4, MAR=30, MBR=  1, Done=0
+Current_state=1, MAR=30, MBR=  0, Done=0
+Current_state=2, MAR=30, MBR=  1, Done=0
+Current_state=3, MAR=30, MBR=  1, Done=0
+Current_state=4, MAR=31, MBR=  1, Done=0
+Current_state=1, MAR=31, MBR=  0, Done=0
+Current_state=2, MAR=31, MBR=  1, Done=0
+Current_state=3, MAR=31, MBR=  1, Done=0
+Current_state=4, MAR= 0, MBR=  1, Done=0
+Current_state=5, MAR= 0, MBR=  1, Done=1
+Current_state=0, MAR= 0, MBR=100, Done=0
+Current_state=1, MAR= 0, MBR=  1, Done=0
+Current_state=2, MAR= 0, MBR=  2, Done=0
+Current_state=3, MAR= 0, MBR=  2, Done=0
+Current_state=4, MAR= 1, MBR=  2, Done=0
+Current_state=1, MAR= 1, MBR=  1, Done=0
+Current_state=2, MAR= 1, MBR=  2, Done=0
+Current_state=3, MAR= 1, MBR=  2, Done=0
+Current_state=4, MAR= 2, MBR=  2, Done=0
+Current_state=1, MAR= 2, MBR=  1, Done=0
+Current_state=2, MAR= 2, MBR=  2, Done=0
+Current_state=3, MAR= 2, MBR=  2, Done=0
+Current_state=4, MAR= 3, MBR=  2, Done=0
+Current_state=1, MAR= 3, MBR=  1, Done=0
+Current_state=2, MAR= 3, MBR=  2, Done=0
+Current_state=3, MAR= 3, MBR=  2, Done=0
+Current_state=4, MAR= 4, MBR=  2, Done=0
+Current_state=1, MAR= 4, MBR=  1, Done=0
+Current_state=2, MAR= 4, MBR=  2, Done=0
+Current_state=3, MAR= 4, MBR=  2, Done=0
+Current_state=4, MAR= 5, MBR=  2, Done=0
+Current_state=1, MAR= 5, MBR=  1, Done=0
+Current_state=2, MAR= 5, MBR=  2, Done=0
+Current_state=3, MAR= 5, MBR=  2, Done=0
+Current_state=4, MAR= 6, MBR=  2, Done=0
+Current_state=1, MAR= 6, MBR=  1, Done=0
+Current_state=2, MAR= 6, MBR=  2, Done=0
+Current_state=3, MAR= 6, MBR=  2, Done=0
+Current_state=4, MAR= 7, MBR=  2, Done=0
+Current_state=1, MAR= 7, MBR=  1, Done=0
+Current_state=2, MAR= 7, MBR=  2, Done=0
+Current_state=3, MAR= 7, MBR=  2, Done=0
+Current_state=4, MAR= 8, MBR=  2, Done=0
+Current_state=1, MAR= 8, MBR=  1, Done=0
+Current_state=2, MAR= 8, MBR=  2, Done=0
+Current_state=3, MAR= 8, MBR=  2, Done=0
+Current_state=4, MAR= 9, MBR=  2, Done=0
+Current_state=1, MAR= 9, MBR=  1, Done=0
+Current_state=2, MAR= 9, MBR=  2, Done=0
+Current_state=3, MAR= 9, MBR=  2, Done=0
+Current_state=4, MAR=10, MBR=  2, Done=0
+Current_state=1, MAR=10, MBR=  1, Done=0
+Current_state=2, MAR=10, MBR=  2, Done=0
+Current_state=3, MAR=10, MBR=  2, Done=0
+Current_state=4, MAR=11, MBR=  2, Done=0
+Current_state=1, MAR=11, MBR=  1, Done=0
+Current_state=2, MAR=11, MBR=  2, Done=0
+Current_state=3, MAR=11, MBR=  2, Done=0
+Current_state=4, MAR=12, MBR=  2, Done=0
+Current_state=1, MAR=12, MBR=  1, Done=0
+Current_state=2, MAR=12, MBR=  2, Done=0
+Current_state=3, MAR=12, MBR=  2, Done=0
+Current_state=4, MAR=13, MBR=  2, Done=0
+Current_state=1, MAR=13, MBR=  1, Done=0
+Current_state=2, MAR=13, MBR=  2, Done=0
+Current_state=3, MAR=13, MBR=  2, Done=0
+Current_state=4, MAR=14, MBR=  2, Done=0
+Current_state=1, MAR=14, MBR=  1, Done=0
+Current_state=2, MAR=14, MBR=  2, Done=0
+Current_state=3, MAR=14, MBR=  2, Done=0
+Current_state=4, MAR=15, MBR=  2, Done=0
+Current_state=1, MAR=15, MBR=  1, Done=0
+Current_state=2, MAR=15, MBR=  2, Done=0
+Current_state=3, MAR=15, MBR=  2, Done=0
+Current_state=4, MAR=16, MBR=  2, Done=0
+Current_state=1, MAR=16, MBR=  1, Done=0
+Current_state=2, MAR=16, MBR=  2, Done=0
+Current_state=3, MAR=16, MBR=  2, Done=0
+Current_state=4, MAR=17, MBR=  2, Done=0
+Current_state=1, MAR=17, MBR=  1, Done=0
+Current_state=2, MAR=17, MBR=  2, Done=0
+Current_state=3, MAR=17, MBR=  2, Done=0
+Current_state=4, MAR=18, MBR=  2, Done=0
+Current_state=1, MAR=18, MBR=  1, Done=0
+Current_state=2, MAR=18, MBR=  2, Done=0
+Current_state=3, MAR=18, MBR=  2, Done=0
+Current_state=4, MAR=19, MBR=  2, Done=0
+Current_state=1, MAR=19, MBR=  1, Done=0
+Current_state=2, MAR=19, MBR=  2, Done=0
+Current_state=3, MAR=19, MBR=  2, Done=0
+Current_state=4, MAR=20, MBR=  2, Done=0
+Current_state=1, MAR=20, MBR=  1, Done=0
+Current_state=2, MAR=20, MBR=  2, Done=0
+Current_state=3, MAR=20, MBR=  2, Done=0
+Current_state=4, MAR=21, MBR=  2, Done=0
+Current_state=1, MAR=21, MBR=  1, Done=0
+Current_state=2, MAR=21, MBR=  2, Done=0
+Current_state=3, MAR=21, MBR=  2, Done=0
+Current_state=4, MAR=22, MBR=  2, Done=0
+Current_state=1, MAR=22, MBR=  1, Done=0
+Current_state=2, MAR=22, MBR=  2, Done=0
+Current_state=3, MAR=22, MBR=  2, Done=0
+Current_state=4, MAR=23, MBR=  2, Done=0
+Current_state=1, MAR=23, MBR=  1, Done=0
+Current_state=2, MAR=23, MBR=  2, Done=0
+Current_state=3, MAR=23, MBR=  2, Done=0
+Current_state=4, MAR=24, MBR=  2, Done=0
+Current_state=1, MAR=24, MBR=  1, Done=0
+Current_state=2, MAR=24, MBR=  2, Done=0
+Current_state=3, MAR=24, MBR=  2, Done=0
+Current_state=4, MAR=25, MBR=  2, Done=0
+Current_state=1, MAR=25, MBR=  1, Done=0
+Current_state=2, MAR=25, MBR=  2, Done=0
+Current_state=3, MAR=25, MBR=  2, Done=0
+Current_state=4, MAR=26, MBR=  2, Done=0
+Current_state=1, MAR=26, MBR=  1, Done=0
+Current_state=2, MAR=26, MBR=  2, Done=0
+Current_state=3, MAR=26, MBR=  2, Done=0
+Current_state=4, MAR=27, MBR=  2, Done=0
+Current_state=1, MAR=27, MBR=  1, Done=0
+Current_state=2, MAR=27, MBR=  2, Done=0
+Current_state=3, MAR=27, MBR=  2, Done=0
+Current_state=4, MAR=28, MBR=  2, Done=0
+Current_state=1, MAR=28, MBR=  1, Done=0
+Current_state=2, MAR=28, MBR=  2, Done=0
+Current_state=3, MAR=28, MBR=  2, Done=0
+Current_state=4, MAR=29, MBR=  2, Done=0
+Current_state=1, MAR=29, MBR=  1, Done=0
+Current_state=2, MAR=29, MBR=  2, Done=0
+Current_state=3, MAR=29, MBR=  2, Done=0
+Current_state=4, MAR=30, MBR=  2, Done=0
+Current_state=1, MAR=30, MBR=  1, Done=0
+Current_state=2, MAR=30, MBR=  2, Done=0
+Current_state=3, MAR=30, MBR=  2, Done=0
+Current_state=4, MAR=31, MBR=  2, Done=0
+Current_state=1, MAR=31, MBR=  1, Done=0
+Current_state=2, MAR=31, MBR=  2, Done=0
+Current_state=3, MAR=31, MBR=  2, Done=0
+Current_state=4, MAR= 0, MBR=  2, Done=0
+Current_state=5, MAR= 0, MBR=  2, Done=1
+Current_state=0, MAR= 0, MBR=100, Done=0
+# exit 0

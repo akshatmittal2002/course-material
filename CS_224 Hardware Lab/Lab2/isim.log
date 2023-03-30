@@ -1,0 +1,24 @@
+ISim log file
+Running: /home/ise/Desktop/CS_224/Lab2/test6_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Desktop/CS_224/Lab2/test6_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+	a = 0000 [ 0],  b = 0000 [ 0],  cin = 0,  sum = 00000 [ 0]
+
+	a = 0110 [ 6],  b = 1100 [12],  cin = 1,  sum = 10011 [19]
+
+	a = 1101 [13],  b = 0011 [ 3],  cin = 0,  sum = 10000 [16]
+
+	a = 1111 [15],  b = 1111 [15],  cin = 1,  sum = 11111 [31]
+# exit 0

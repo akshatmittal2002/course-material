@@ -1,0 +1,122 @@
+ISim log file
+Running: /home/ise/Desktop/CS_224/Lab9/test1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Desktop/CS_224/Lab9/test1_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING:  For instance uut/alu/, width 1 of formal port cin is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+                   0,  curr= 0,  ss_add= 0,  ss_in=  0,  ss_out=  x,  rf_id= 0,  rf_in=  0,  rf_out=  x,  alu_out=  x
+Finished circuit initialization process.
+                 105,  curr= 1,  ss_add= 0,  ss_in=  0,  ss_out=  z,  rf_id= 0,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 107,  curr= 2,  ss_add= 0,  ss_in=  0,  ss_out=  z,  rf_id= 0,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 109,  curr= 3,  ss_add= 0,  ss_in=  0,  ss_out=  z,  rf_id= 0,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 111,  curr= 4,  ss_add= 0,  ss_in=  0,  ss_out=  0,  rf_id= 0,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 113,  curr= 5,  ss_add= 0,  ss_in=  0,  ss_out=  0,  rf_id= 0,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 115,  curr= 6,  ss_add= 0,  ss_in=  0,  ss_out=  0,  rf_id= 0,  rf_in=  0,  rf_out=  0,  alu_out=  x
+                 117,  curr= 7,  ss_add= 0,  ss_in=  0,  ss_out=  0,  rf_id= 0,  rf_in=  0,  rf_out=  0,  alu_out=  x
+                 119,  curr= 8,  ss_add= 1,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  0,  alu_out=  x
+                 121,  curr= 9,  ss_add= 1,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 123,  curr= 1,  ss_add= 1,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 125,  curr= 2,  ss_add= 1,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 127,  curr= 3,  ss_add= 1,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 129,  curr= 4,  ss_add= 1,  ss_in=  0,  ss_out=  2,  rf_id= 1,  rf_in=  2,  rf_out=  x,  alu_out=  x
+                 131,  curr= 5,  ss_add= 1,  ss_in=  0,  ss_out=  2,  rf_id= 1,  rf_in=  2,  rf_out=  x,  alu_out=  x
+                 133,  curr= 6,  ss_add= 1,  ss_in=  0,  ss_out=  2,  rf_id= 1,  rf_in=  2,  rf_out=  2,  alu_out=  x
+                 135,  curr= 7,  ss_add= 1,  ss_in=  0,  ss_out=  2,  rf_id= 1,  rf_in=  2,  rf_out=  2,  alu_out=  x
+                 137,  curr= 8,  ss_add= 2,  ss_in=  0,  ss_out=  z,  rf_id= 2,  rf_in=  2,  rf_out=  2,  alu_out=  x
+                 139,  curr= 9,  ss_add= 2,  ss_in=  0,  ss_out=  z,  rf_id= 2,  rf_in=  2,  rf_out=  x,  alu_out=  x
+                 141,  curr= 1,  ss_add= 2,  ss_in=  0,  ss_out=  z,  rf_id= 2,  rf_in=  2,  rf_out=  x,  alu_out=  x
+                 143,  curr= 2,  ss_add= 2,  ss_in=  0,  ss_out=  z,  rf_id= 2,  rf_in=  2,  rf_out=  x,  alu_out=  x
+                 145,  curr= 3,  ss_add= 2,  ss_in=  0,  ss_out=  z,  rf_id= 2,  rf_in=  2,  rf_out=  x,  alu_out=  x
+                 147,  curr= 4,  ss_add= 2,  ss_in=  0,  ss_out=  4,  rf_id= 2,  rf_in=  4,  rf_out=  x,  alu_out=  x
+                 149,  curr= 5,  ss_add= 2,  ss_in=  0,  ss_out=  4,  rf_id= 2,  rf_in=  4,  rf_out=  x,  alu_out=  x
+                 151,  curr= 6,  ss_add= 2,  ss_in=  0,  ss_out=  4,  rf_id= 2,  rf_in=  4,  rf_out=  4,  alu_out=  x
+                 153,  curr= 7,  ss_add= 2,  ss_in=  0,  ss_out=  4,  rf_id= 2,  rf_in=  4,  rf_out=  4,  alu_out=  x
+                 155,  curr= 8,  ss_add= 3,  ss_in=  0,  ss_out=  z,  rf_id= 3,  rf_in=  4,  rf_out=  4,  alu_out=  x
+                 157,  curr= 9,  ss_add= 3,  ss_in=  0,  ss_out=  z,  rf_id= 3,  rf_in=  4,  rf_out=  x,  alu_out=  x
+                 159,  curr= 1,  ss_add= 3,  ss_in=  0,  ss_out=  z,  rf_id= 3,  rf_in=  4,  rf_out=  x,  alu_out=  x
+                 161,  curr= 2,  ss_add= 3,  ss_in=  0,  ss_out=  z,  rf_id= 3,  rf_in=  4,  rf_out=  x,  alu_out=  x
+                 163,  curr= 3,  ss_add= 3,  ss_in=  0,  ss_out=  z,  rf_id= 3,  rf_in=  4,  rf_out=  x,  alu_out=  x
+                 165,  curr= 4,  ss_add= 3,  ss_in=  0,  ss_out=  6,  rf_id= 3,  rf_in=  6,  rf_out=  x,  alu_out=  x
+                 167,  curr= 5,  ss_add= 3,  ss_in=  0,  ss_out=  6,  rf_id= 3,  rf_in=  6,  rf_out=  x,  alu_out=  x
+                 169,  curr= 6,  ss_add= 3,  ss_in=  0,  ss_out=  6,  rf_id= 3,  rf_in=  6,  rf_out=  6,  alu_out=  x
+                 171,  curr= 7,  ss_add= 3,  ss_in=  0,  ss_out=  6,  rf_id= 3,  rf_in=  6,  rf_out=  6,  alu_out=  x
+                 173,  curr= 8,  ss_add= 4,  ss_in=  0,  ss_out=  z,  rf_id= 4,  rf_in=  6,  rf_out=  6,  alu_out=  x
+                 175,  curr= 9,  ss_add= 4,  ss_in=  0,  ss_out=  z,  rf_id= 4,  rf_in=  6,  rf_out=  x,  alu_out=  x
+                 177,  curr= 1,  ss_add= 4,  ss_in=  0,  ss_out=  z,  rf_id= 4,  rf_in=  6,  rf_out=  x,  alu_out=  x
+                 179,  curr= 2,  ss_add= 4,  ss_in=  0,  ss_out=  z,  rf_id= 4,  rf_in=  6,  rf_out=  x,  alu_out=  x
+                 181,  curr= 3,  ss_add= 4,  ss_in=  0,  ss_out=  z,  rf_id= 4,  rf_in=  6,  rf_out=  x,  alu_out=  x
+                 183,  curr= 4,  ss_add= 4,  ss_in=  0,  ss_out=  8,  rf_id= 4,  rf_in=  8,  rf_out=  x,  alu_out=  x
+                 185,  curr= 5,  ss_add= 4,  ss_in=  0,  ss_out=  8,  rf_id= 4,  rf_in=  8,  rf_out=  x,  alu_out=  x
+                 187,  curr= 6,  ss_add= 4,  ss_in=  0,  ss_out=  8,  rf_id= 4,  rf_in=  8,  rf_out=  8,  alu_out=  x
+                 189,  curr= 7,  ss_add= 4,  ss_in=  0,  ss_out=  8,  rf_id= 4,  rf_in=  8,  rf_out=  8,  alu_out=  x
+                 191,  curr= 8,  ss_add= 5,  ss_in=  0,  ss_out=  z,  rf_id= 5,  rf_in=  8,  rf_out=  8,  alu_out=  x
+                 193,  curr= 9,  ss_add= 5,  ss_in=  0,  ss_out=  z,  rf_id= 5,  rf_in=  8,  rf_out=  x,  alu_out=  x
+                 195,  curr= 1,  ss_add= 5,  ss_in=  0,  ss_out=  z,  rf_id= 5,  rf_in=  8,  rf_out=  x,  alu_out=  x
+                 197,  curr= 2,  ss_add= 5,  ss_in=  0,  ss_out=  z,  rf_id= 5,  rf_in=  8,  rf_out=  x,  alu_out=  x
+                 199,  curr= 3,  ss_add= 5,  ss_in=  0,  ss_out=  z,  rf_id= 5,  rf_in=  8,  rf_out=  x,  alu_out=  x
+                 201,  curr= 4,  ss_add= 5,  ss_in=  0,  ss_out= 10,  rf_id= 5,  rf_in= 10,  rf_out=  x,  alu_out=  x
+                 203,  curr= 5,  ss_add= 5,  ss_in=  0,  ss_out= 10,  rf_id= 5,  rf_in= 10,  rf_out=  x,  alu_out=  x
+                 205,  curr= 6,  ss_add= 5,  ss_in=  0,  ss_out= 10,  rf_id= 5,  rf_in= 10,  rf_out= 10,  alu_out=  x
+                 207,  curr= 7,  ss_add= 5,  ss_in=  0,  ss_out= 10,  rf_id= 5,  rf_in= 10,  rf_out= 10,  alu_out=  x
+                 209,  curr= 8,  ss_add= 6,  ss_in=  0,  ss_out=  z,  rf_id= 6,  rf_in= 10,  rf_out= 10,  alu_out=  x
+                 211,  curr= 9,  ss_add= 6,  ss_in=  0,  ss_out=  z,  rf_id= 6,  rf_in= 10,  rf_out=  x,  alu_out=  x
+                 213,  curr= 1,  ss_add= 6,  ss_in=  0,  ss_out=  z,  rf_id= 6,  rf_in= 10,  rf_out=  x,  alu_out=  x
+                 215,  curr= 2,  ss_add= 6,  ss_in=  0,  ss_out=  z,  rf_id= 6,  rf_in= 10,  rf_out=  x,  alu_out=  x
+                 217,  curr= 3,  ss_add= 6,  ss_in=  0,  ss_out=  z,  rf_id= 6,  rf_in= 10,  rf_out=  x,  alu_out=  x
+                 219,  curr= 4,  ss_add= 6,  ss_in=  0,  ss_out= 12,  rf_id= 6,  rf_in= 12,  rf_out=  x,  alu_out=  x
+                 221,  curr= 5,  ss_add= 6,  ss_in=  0,  ss_out= 12,  rf_id= 6,  rf_in= 12,  rf_out=  x,  alu_out=  x
+                 223,  curr= 6,  ss_add= 6,  ss_in=  0,  ss_out= 12,  rf_id= 6,  rf_in= 12,  rf_out= 12,  alu_out=  x
+                 225,  curr= 7,  ss_add= 6,  ss_in=  0,  ss_out= 12,  rf_id= 6,  rf_in= 12,  rf_out= 12,  alu_out=  x
+                 227,  curr= 8,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 7,  rf_in= 12,  rf_out= 12,  alu_out=  x
+                 229,  curr= 9,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 7,  rf_in= 12,  rf_out=  x,  alu_out=  x
+                 231,  curr= 0,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 0,  rf_in=  0,  rf_out=  x,  alu_out=  x
+                 233,  curr=10,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 0,  rf_in=  0,  rf_out=  0,  alu_out=  x
+                 235,  curr=11,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 0,  rf_in=  0,  rf_out=  0,  alu_out=  x
+                 237,  curr=12,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 0,  rf_in=  0,  rf_out=  0,  alu_out=  x
+                 239,  curr=13,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  0,  alu_out=  x
+                 241,  curr=14,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  2,  alu_out=  x
+                 243,  curr=15,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  2,  alu_out=  x
+                 245,  curr=16,  ss_add= 7,  ss_in=  0,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  2,  alu_out=  2
+                 247,  curr=17,  ss_add= 7,  ss_in=  2,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  2,  alu_out=  2
+                 249,  curr=18,  ss_add= 7,  ss_in=  2,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  2,  alu_out=  2
+                 251,  curr=19,  ss_add= 7,  ss_in=  2,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  2,  alu_out=  2
+                 253,  curr=20,  ss_add= 7,  ss_in=  2,  ss_out=  z,  rf_id= 1,  rf_in=  0,  rf_out=  2,  alu_out=  2
+                 255,  curr=21,  ss_add= 8,  ss_in=  2,  ss_out=  2,  rf_id= 2,  rf_in=  0,  rf_out=  2,  alu_out=  2
+                 257,  curr=22,  ss_add= 8,  ss_in=  2,  ss_out=  2,  rf_id= 2,  rf_in=  0,  rf_out=  4,  alu_out=  2
+                 259,  curr=10,  ss_add= 8,  ss_in=  2,  ss_out=  z,  rf_id= 2,  rf_in=  0,  rf_out=  4,  alu_out=  2
+                 261,  curr=11,  ss_add= 8,  ss_in=  2,  ss_out=  z,  rf_id= 2,  rf_in=  0,  rf_out=  4,  alu_out=  2
+                 263,  curr=12,  ss_add= 8,  ss_in=  2,  ss_out=  z,  rf_id= 2,  rf_in=  0,  rf_out=  4,  alu_out=  2
+                 265,  curr=13,  ss_add= 8,  ss_in=  2,  ss_out=  z,  rf_id= 3,  rf_in=  0,  rf_out=  4,  alu_out=  2
+                 267,  curr=14,  ss_add= 8,  ss_in=  2,  ss_out=  z,  rf_id= 3,  rf_in=  0,  rf_out=  6,  alu_out=  2
+                 269,  curr=15,  ss_add= 8,  ss_in=  2,  ss_out=  z,  rf_id= 3,  rf_in=  0,  rf_out=  6,  alu_out=  2
+                 271,  curr=16,  ss_add= 8,  ss_in=  2,  ss_out=  z,  rf_id= 3,  rf_in=  0,  rf_out=  6,  alu_out=254
+                 273,  curr=17,  ss_add= 8,  ss_in=254,  ss_out=  z,  rf_id= 3,  rf_in=  0,  rf_out=  6,  alu_out=254
+                 275,  curr=18,  ss_add= 8,  ss_in=254,  ss_out=  z,  rf_id= 3,  rf_in=  0,  rf_out=  6,  alu_out=254
+                 277,  curr=19,  ss_add= 8,  ss_in=254,  ss_out=  z,  rf_id= 3,  rf_in=  0,  rf_out=  6,  alu_out=254
+                 279,  curr=20,  ss_add= 8,  ss_in=254,  ss_out=  z,  rf_id= 3,  rf_in=  0,  rf_out=  6,  alu_out=254
+                 281,  curr=21,  ss_add= 9,  ss_in=254,  ss_out=254,  rf_id= 4,  rf_in=  0,  rf_out=  6,  alu_out=254
+                 283,  curr=22,  ss_add= 9,  ss_in=254,  ss_out=254,  rf_id= 4,  rf_in=  0,  rf_out=  8,  alu_out=254
+                 285,  curr=10,  ss_add= 9,  ss_in=254,  ss_out=  z,  rf_id= 4,  rf_in=  0,  rf_out=  8,  alu_out=254
+                 287,  curr=11,  ss_add= 9,  ss_in=254,  ss_out=  z,  rf_id= 4,  rf_in=  0,  rf_out=  8,  alu_out=254
+                 289,  curr=12,  ss_add= 9,  ss_in=254,  ss_out=  z,  rf_id= 4,  rf_in=  0,  rf_out=  8,  alu_out=254
+                 291,  curr=13,  ss_add= 9,  ss_in=254,  ss_out=  z,  rf_id= 5,  rf_in=  0,  rf_out=  8,  alu_out=254
+                 293,  curr=14,  ss_add= 9,  ss_in=254,  ss_out=  z,  rf_id= 5,  rf_in=  0,  rf_out= 10,  alu_out=254
+                 295,  curr=15,  ss_add= 9,  ss_in=254,  ss_out=  z,  rf_id= 5,  rf_in=  0,  rf_out= 10,  alu_out=254
+                 297,  curr=16,  ss_add= 9,  ss_in=254,  ss_out=  z,  rf_id= 5,  rf_in=  0,  rf_out= 10,  alu_out= 10
+                 299,  curr=17,  ss_add= 9,  ss_in= 10,  ss_out=  z,  rf_id= 5,  rf_in=  0,  rf_out= 10,  alu_out= 10
+                 301,  curr=18,  ss_add= 9,  ss_in= 10,  ss_out=  z,  rf_id= 5,  rf_in=  0,  rf_out= 10,  alu_out= 10
+                 303,  curr=19,  ss_add= 9,  ss_in= 10,  ss_out=  z,  rf_id= 5,  rf_in=  0,  rf_out= 10,  alu_out= 10
+                 305,  curr=20,  ss_add= 9,  ss_in= 10,  ss_out=  z,  rf_id= 5,  rf_in=  0,  rf_out= 10,  alu_out= 10
+                 307,  curr=21,  ss_add=10,  ss_in= 10,  ss_out= 10,  rf_id= 6,  rf_in=  0,  rf_out= 10,  alu_out= 10
+                 309,  curr=22,  ss_add=10,  ss_in= 10,  ss_out= 10,  rf_id= 6,  rf_in=  0,  rf_out= 12,  alu_out= 10
+                 311,  curr= 0,  ss_add= 0,  ss_in= 10,  ss_out=  z,  rf_id= 0,  rf_in=  0,  rf_out= 12,  alu_out= 10
+# exit 0

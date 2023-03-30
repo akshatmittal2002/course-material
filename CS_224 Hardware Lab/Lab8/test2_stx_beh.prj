@@ -1,0 +1,4 @@
+verilog isim_temp "sram_chip.v"
+verilog isim_temp "mem_control.v"
+verilog isim_temp "test2.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

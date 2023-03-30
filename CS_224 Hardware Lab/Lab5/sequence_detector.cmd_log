@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CS_224/Lab5/sequence_detector.xst" -ofn "/home/ise/Desktop/CS_224/Lab5/sequence_detector.syr" 

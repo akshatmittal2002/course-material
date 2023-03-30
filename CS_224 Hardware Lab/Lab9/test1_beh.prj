@@ -1,0 +1,6 @@
+verilog work "sync_sram.v"
+verilog work "reg_file.v"
+verilog work "ALU.v"
+verilog work "mem_controller.v"
+verilog work "test1.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

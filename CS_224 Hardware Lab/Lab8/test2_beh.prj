@@ -1,0 +1,4 @@
+verilog work "sram_chip.v"
+verilog work "mem_control.v"
+verilog work "test2.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

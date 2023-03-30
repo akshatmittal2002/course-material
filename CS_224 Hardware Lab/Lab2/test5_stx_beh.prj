@@ -1,0 +1,4 @@
+verilog isim_temp "fa_delay.v"
+verilog isim_temp "rca_delay.v"
+verilog isim_temp "test5.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

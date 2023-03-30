@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CS_224/Lab2/cla.xst" -ofn "/home/ise/Desktop/CS_224/Lab2/cla.syr" 

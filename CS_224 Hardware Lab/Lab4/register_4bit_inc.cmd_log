@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CS_224/Lab4/register_4bit_inc.xst" -ofn "/home/ise/Desktop/CS_224/Lab4/register_4bit_inc.syr" 

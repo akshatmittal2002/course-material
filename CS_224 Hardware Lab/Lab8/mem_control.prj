@@ -1,0 +1,2 @@
+verilog work "sram_chip.v"
+verilog work "mem_control.v"

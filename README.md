@@ -31,6 +31,13 @@ My Courses of IIT Guwahati, Computer Science and Engineering Department
 - HS200: Sustainable Development Goals
 
 ## Semester 4
+- CS205: Formal Languages, Automata Theory and Computation
+- CS207: Design and Analysis of Algorithms
+- CS223: Computer Architecture and Organization
+- CS224: Hardware Lab
+- CS245: Database Management Systems
+- CS246: Database Management Systems Lab
+- HS123: Game Theory and Economics
 
 ## Semester 5
 

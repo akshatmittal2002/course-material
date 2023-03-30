@@ -1,0 +1,479 @@
+CE205#Structural Analysis I#3#0#0#6
+CE212#Civil Engineering Materials Laboratory#0#0#3#3
+CE214#Fluid Mechanics Lab#0#0#2#2
+CE220#Hydraulics & Hydraulic Structure#3#0#0#6
+CE221#Hydraulics and Hydraulics Structures Lab#0#0#2#2
+CE215#Geotechnical Engineering I Lab#0#0#2#2
+CE222#Environmental Engg. I#3#0#0#6
+CE223#Environmental Engineering I Lab#0#0#2#2
+CE201#Surveying#3#0#6#6
+CE208#Engineering Geology Lab#0#0#2#2
+CE213#Surveying Lab#0#0#2#2
+CE309#Design of Steel Structures#3#1#0#8
+CE308#Construction Technology and Management#3#0#0#6
+CE321#Hydrology Laboratory#0#0#2#2
+CE313#Geotechnical Engineering II Lab#0#0#2#2
+CE314#Transportation Engineering I Lab#0#0#2#2
+CE322#Transportation Engineering II#3#0#0#6
+CE323#Transportation Engineering II Laboratory#0#0#2#2
+CE504#Advanced Structural Design#3#0#0#6
+CE511#Analysis and Design of Bridges#3#0#0#6
+CE512#Structural Engineering Laboratory#0#0#3#3
+CE606#Earthquake Engineering#3#0#0#6
+CE615#Design of Masonry Structures#3#0#6#6
+CE619#Theory of Wave Propagation#0#0#0#6
+CE514#Plates, Shells And Elastic Stability#3#0#0#6
+CE608#Reliability based Structural Design#3#0#0#6
+CE510#Quality And Safety Management In Construction#3#0#0#6
+CE544#Project Management Laboratory#0#0#3#3
+CE612#Advanced Concrete Technology#3#0#0#6
+CE614#Financing Infrastructure Projects#3#0#0#6
+CE552#Water Resources Systems Analysis,Planning & Management#3#0#0#6
+CE623#Pavement Evaluation, Rehabilitation and Maintenance#3#0#0#6
+CE555#Principles of Water Quality & EIA#2#0#2#6
+CE556#Subsurface Hydrology#3#0#0#6
+CE562#Transient Flow Analysis#3#0#0#6
+CE559#Watershed Management & Remote Sensing Application#0#0#0#6
+CE560#Computational Methods in Hydraulics & Environmental Engg.#3#0#0#6
+CE515#Genetic Algorithms#0#0#0#6
+CE533#Advanced Foundation Engg.#3#1#0#8
+CE534#Seminar#0#0#2#2
+CE618#Mechanics of Unsaturated Soils#3#0#0#6
+CE641#Reinforced Soil Structures#0#0#0#6
+CE646#Rock Mechanics#3#0#0#6
+CE583#Pavement Analysis and Design#3#0#0#6
+CE584#Traffic Engineering#3#0#2#8
+CE585#Credit Seminar#0#0#2#2
+CE628#Traffic Flow Modelling and Simulation#0#0#0#6
+CE521#Process Chemistry for Water and Wastewater Treatment#3#0#2#8
+CE523#Air and Noise Pollution#3#0#2#8
+CE524#Biological Processes in Environmental Engg.#3#0#0#6
+CE525#Solid and Hazardous Waste Management#3#0#0#6
+CE661#Air Quality Modeling#3#1#0#8
+CE664#Industrial Wastewater Pollution Control#3#0#0#6
+CE594#Geohazard Science and Engineering#3#0#0#6
+CE595#Advanced Techniques in Geoscience#2#0#2#6
+CE499#BTP Phase II#0#0#0#7
+CE699#Project and Thesis Phase II#0#0#24#24
+CE550#Project and Thesis Phase II#0#0#24#24
+CE691#Project and Thesis Phase II#0#0#24#24
+CE697#Project and Dissertation#0#0#24#24
+CE695#Project and Thesis Phase II#0#0#24#24
+CE693#Project and Thesis Phase II#0#0#24#24
+CE599#M Tech Project – Phase II#0#0#24#24
+CE324#Mathematical Concepts and Applications in Civil Engineering#3#1#0#8
+CE402#Design Project#1#0#3#5
+ME221#Fluid Mechanics II#2#1#0#6
+ME223#Solid Mechanics II#3#0#0#6
+ME224#Kinematics of Machinery#2#1#0#6
+ME225#Workshop II#0#0#6#6
+ME226#Mechanical Engg. Laboratory - II#0#0#3#3
+ME215#Machine Drawing#0#0#3#3
+ME216#Mechanical Engg Laboratary- I#0#0#3#3
+ME202M#Mechatronics#2#0#2#6
+ME321#Applied Thermodynamics#3#0#0#6
+ME322#Machine Design#2#0#2#6
+ME323#Mechanical Measurements#3#0#0#6
+ME324#Industrial Engineering and Operations Research#3#0#0#6
+ME325#Control Systems#3#0#0#6
+ME326#Mechanical Engg. Laboratory - IV#0#0#3#3
+ME315#Mechanical Engineering Laboratory III#0#0#0#3
+ME412#Mechanical Lab IV#0#0#3#3
+ME421#Industrial Engineering and Operation Research#3#0#0#6
+ME511#Engineering Materials and Characterization#3#0#0#6
+ME513#Physics of Deformation Processes#3#0#0#6
+ME515#Manufacturing Laboratory#0#0#6#6
+ME522#Convective Heat & Mass Transfer#3#0#0#6
+ME541#Continuum Mechanics#3#0#0#6
+ME542#Numerical Analysis#2#0#2#6
+ME544#Computational Mechanics Lab#0#0#2#2
+ME552#Aircraft Propulsion#3#0#0#6
+ME553#Gas Dynamics#3#0#0#6
+ME554#Rocket Propulsion#3#0#0#6
+ME605#Fracture, Fatigue and Failure Analysis#3#0#0#6
+ME607#Introduction to Composite Materials#3#0#0#6
+ME608#Computer Aided Design-Computer Aided Manufacturing#2#0#2#6
+ME615#Rotor Dynamics#3#0#0#6
+ME619#Fundamentals of Microfluidics#3#0#0#6
+ME621#Refrigeration and Air Conditioning#3#0#0#6
+ME628#Additive Manufacturing Technologies#2#0#2#6
+ME648#Viscous Fluid Flow#3#0#0#6
+ME657#Two Phase Flow & Heat Transfer#3#0#0#6
+ME670#Advanced Computational Fluid Dynamics#3#0#0#6
+ME671#Biomaterials: Design and Applications#3#0#0#6
+ME674#Soft Computing in Engineering#3#0#0#6
+ME683#Computational Gas Dynamics#3#0#0#6
+ME612#Nuclear Energy: Concepts and Applications#3#0#0#6
+ME499#Project#0#0#12#12
+ME399#BTech Project-II#0#0#3#3
+ME504#MTP Phase I#0#0#20#20
+ME505#MTP Phase II#0#0#0#24
+CS205#Formal Languages, Automata Theory and Computation#3#0#0#6
+CS207#Design and Analysis of Algorithms#3#0#0#6
+CS223#Computer Architecture and Organization#3#0#0#6
+CS224#Hardware Lab#0#1#4#6
+CS245#Database Management Systems#3#0#0#6
+CS246#Database Management Systems Lab#0#0#4#4
+CS206M#Data Structures and Algorithms#3#0#0#6
+CS345#Software Engineering#2#0#0#4
+CS346#Software Engineering Laboratory#0#0#3#3
+CS361#Machine Learning#3#0#0#6
+CS350M#Computer Systems#3#0#0#6
+CS499#Project II#0#0#8#8
+CS558#Computer Systems Lab#0#1#4#6
+CS699#Project II#0#0#24#24
+CS595#Data Visualization Lab#0#0#3#3
+CS501#Parallel Algorithms#3#0#0#6
+CS502#Computational Geometry#3#0#0#6
+CS508#Optimization Methods#3#0#0#6
+CS544#Topics in Networks#3#0#0#6
+CS549#Computer & Network Security#3#0#0#6
+CS577#C-Based VLSI Design: Synthesis, Optimization and Verification#3#0#0#6
+CS529#Topics and Tools in Social Media Data Mining#2#0#2#6
+CS568#Data Mining#3#0#0#6
+CS348#Implementation of Programming Languages Laboratory#0#2#3#7
+CS331#Programming Languages Laboratory#0#1#3#5
+DS699#MTP Project - II#0#0#0#24
+DD212#Visual Narratives#1#0#4#6
+DD213#Art and Aesthetics in Design#2#0#2#6
+DD214#Design Workshop#0#0#0#4
+DD215#Cognitive Ergonomics#2#0#2#6
+DD216#Design Project I#0#0#8#8
+DD220M#Introduction to Ergonomics#3#0#0#6
+DD201#Form Studies#0#2#4#8
+DD311#Systems Approach to Design#2#0#4#8
+DD312#Design Evaluation Methods#1#2#0#6
+DD398#Design Project II#0#1#8#10
+DD324#Plastics & Composites#1#0#4#6
+DD325#Graphic Communication#0#1#4#6
+DD326#Introduction to Automobile Design#0#1#4#6
+DD320M#Product Planning and Strategy#3#0#0#6
+DD321#Modelling & SImulation Techniques#0#1#4#6
+DD322#Animation Fundamentals#0#1#4#6
+DD411#Design and Entrepreneurship#1#3#0#8
+DD499#Design Project IV#0#2#10#16
+DD505#Form Studies#0#2#3#7
+DD506#Graphic Design#0#1#6#8
+DD507#Design Project#0#1#6#8
+DD605#Thesis Project II#0#6#12#24
+DD509#Interaction Design#2#1#0#6
+DD516#Digital Human Modelling and Simulation in Product Design#2#0#2#6
+DD517#Automobile Design#1#1#4#8
+DD534#Human Computer Interaction in Virtual Reality#2#1#0#6
+DD602#System Analysis & Information Design#2#0#2#6
+DD604#Environment and Experiential Design#2#0#3#7
+DD606#Product Detailing#2#0#4#8
+DD705#Design Research Methods#3#0#0#6
+DD710#Research-based Project#0#0#6#6
+DD533#Auditory and Voice User Interaction Design#0#0#0#6
+BT206#MicroBiology#3#0#0#6
+BT207#Genetic Engineering#3#0#0#6
+BT208#Transport Phenomenon in Bioprocesses#3#1#0#8
+BT209#BioReaction Engineering#3#0#0#6
+BT211#Basic BioTechnology LAB#0#0#6#6
+BT311#Biochemical Engineering Lab#0#0#0#6
+BT312#Analytical Biotechnology Lab#0#0#0#6
+BT306#Bio-separation Engineering#0#0#0#8
+BT307#Biological Data Analysis#0#0#0#6
+BT401#Frontiers in Biotechnology#3#0#0#6
+BT510#Analytical Biotechnology Lab#0#0#6#6
+BT502#Quantitative Biology#3#0#2#8
+BT520#Applied Biology and Bio-engineering Lab#0#0#6#6
+BT633#Human Biology and Diseases#3#0#0#6
+BT601#Analytical Biotechnology#3#0#0#6
+BT608#Microbial Biotechnology#0#0#0#6
+BT604#Enzymology#0#0#0#6
+BT609#Bioprocess Engineering#3#0#0#6
+BT623#Research Methodology#2#1#0#6
+BT630#Physical Cell Biology#3#0#0#6
+BT632#Stem Cells, Cancer and Therapy#3#0#0#6
+BT643#Biointerface Engineering#3#0#0#6
+BT619#Essential of Genetics#3#0#0#6
+BT622#Biofuels#0#0#0#6
+BT640#Neural Imaging And Signal Systems#3#0#0#6
+BT499#Project II#0#0#6#6
+BT699#Project and Thesis Phase II#0#0#24#24
+CL205#Mass Transfer - I#3#1#0#8
+CL206#Solid Fluid Operations#3#0#0#6
+CL208#Chemical Reaction Engineering- I#2#1#0#6
+CL304#Chemical Process Technology#3#0#0#6
+CL305#Transport Phenomena#2#1#0#6
+CL306#Process Engineering and Economics#2#1#0#6
+CL401#Process  Design and Project Engineering#3#1#0#8
+CL404#Material Science#3#0#0#6
+CL502#Computer Aided Numerical Methods#2#1#2#8
+CL503#Advanced Thermodynamics#3#0#0#6
+CL504#Advanced Reaction Engineering#3#0#0#6
+CL514#Fundamentals of Material Science & Engineering#3#0#0#6
+CL505#Petroleum Production Engineering#3#0#0#6
+CL506#Smart Materials#3#0#0#6
+CL618#Natural Gas Engineering#3#0#0#6
+CL619#Refinery Process Design#3#0#0#6
+CL622#Molecular Simulation: Principles and Application#3#0#0#6
+CL625#Fundamentals of Micro-nano Fluidics and Micro-Fabrication#3#0#0#6
+CL626#Energy Resources#3#0#0#6
+CL628#Catalysts and Adsorbents#3#0#0#6
+CL634#Applied Rheology#3#0#0#6
+CL639#Biofluid Mechanics#3#0#0#6
+CL643#Computer Aided Applied Optimization#3#0#0#6
+CL210H#Laboratory 1- Fluid Mechanics#0#0#3#2
+CL211H#Laboratory 2- Heat Transfer#0#0#3#2
+CL310#Solid Fluid Operations Laboratory#0#0#3#3
+CL312#Computer Aided Process Equipment Design#0#0#3#3
+CL313#Laboratory 4 - Mass Transfer#0#0#3#3
+CL314H#Laboratory 5 - Reaction Engineering#0#0#3#2
+CL315H#Laboratory 6 - Process Control#0#0#3#2
+CL416#Process Control Lab#0#0#3#3
+CL417#Chemical Reaction Engineering Lab#0#0#3#3
+CL599#Scientific Communications#0#0#2#2
+CL209#Process Equipment Design#1#0#3#5
+CL207#Computer Aided Numerical Methods#2#1#2#8
+CL598#Petroleum Laboratory#0#0#0#3
+CL499#Project II#0#0#6#6
+CL699#Project II#0#0#24#24
+CL498#Project I#0#0#6#6
+CL399#General Learning of Chemical Engineering Research Project - II#0#0#3#3
+EE206#Analog Circuits#3#1#0#8
+EE207#Analog Circuits Laboratory#0#0#3#3
+EE230#Probability and Random Processes#3#1#0#8
+EE250#Control Systems#3#1#0#8
+EE252#Measurement and Instrumentation#3#0#0#6
+EE253#Instrumentation Laboratory#0#0#3#3
+EE213M#Digital Circuits#3#0#0#6
+EE211#Digital circuits Laboratory#0#0#3#3
+EE313#Microelectronics Laboratory#0#0#3#3
+EE332#Digital Communications#3#0#0#6
+EE333#Communication and DSP Laboratory#0#0#3#3
+EE334#Computer Networks#3#0#0#6
+EE390#Data Structures and Algorithms#2#0#2#6
+EE360#Power Electronics#3#0#0#6
+EE370#Electrical Power Systems#3#0#0#6
+EE371#Advanced Electrical Engineering Laboratory#0#0#3#3
+EE381#Electrical Machines Laboratory#0#0#3#3
+EE322M#Signal Processing#3#0#0#6
+EE351#Control and Robotics Laboratory#0#0#3#3
+EE399#B. Tech Project-II#0#0#3#3
+EE499#Project II#0#0#6#6
+EE482#Advanced Electrical Engineering Laboratory#0#0#3#3
+EE442#Microwave Engineering Lab.#0#0#3#3
+EE521#Digital Signal Processing Lab#0#0#3#3
+EE522#Statistical Signal Processing#3#0#0#6
+EE525#Advanced Topics in Machine Learning#3#0#0#6
+EE533#Wireless Communication#3#0#0#6
+EE534#Communication System Design Lab#3#0#0#3
+EE535#Data Communication Network#3#0#0#6
+EE592#Detection and Estimation Theory#3#0#0#6
+EE512#Analog IC Design#3#0#0#6
+EE515#VLSI System Design#3#0#0#6
+EE516#VLSI DSP#3#0#0#6
+EE517#VLSI Lab-II#0#0#4#4
+EE518#VLSI Lab-III#0#0#4#4
+EE553#Optimal Control#3#0#0#6
+EE554#Nonlinear Systems and Control#3#0#0#6
+EE555#Automation Laboratory#0#0#3#3
+EE562#Power Electronics Applications in Power Systems#3#0#0#6
+EE572#Power Engineering Laboratory#0#0#3#3
+EE580#Electrical Machines and Drive Systems#3#0#0#6
+EE541#Antennas, RF and Microwave Laboratory#0#0#3#3
+EE543#Computational Electromagnetics#3#0#0#6
+EE544#Photonics Devices and Circuits#3#0#0#6
+EE561#Power Electronics Laboratory#0#0#3#3
+EE552#Applied Control Lab#0#0#3#3
+EE595H#Stochastic Models#3#0#0#3
+EE596H#Optimization Techniques#3#0#0#3
+EE526#Machine Learning#3#0#0#6
+EE527#Machine Learning Laboratory#0#0#3#3
+EE699#Project Phase II#0#0#24#24
+EE611#Organic Semiconductor Devices#3#0#0#6
+EE613#Radio Frequency Integrated Circuits#3#0#0#6
+EE621#Computer Vision#3#0#0#6
+EE622#Biomedical Signal Processing#3#0#0#6
+EE633#Error Control Codes#3#0#0#6
+EE643#Silicon Photonics#3#0#0#6
+EE644#Plasmonics, Nanophotonics and Metamaterials#3#0#0#6
+EE655#Mathematical Techniques for Control and Signal Processing#3#0#0#6
+EE672#Electrical Power Quality and Reliability#3#0#0#6
+EE674#Sychrophasor Technology#3#0#0#6
+EE694#Introduction to Parallel Computing#3#0#0#6
+EE626#Pattern Recognition and Machine Learning#3#0#0#6
+EE645#Numerical Methods in Electromagnetism#3#0#0#6
+EE661#Power Electronics for Renewable Energy Systems#3#0#0#6
+EE352#Advanced Control Systems#3#0#0#6
+EE335#Information Theory & Coding#3#0#0#6
+EM597#Project Phase I#0#0#0#24
+PH202#Electromagnetics#3#1#0#8
+PH204#Quantum Mechanics I#2#1#0#6
+PH206#Computational Physics#2#0#2#6
+PH208#Digital electronics and microprocessors#3#0#0#6
+PH211#Electronics Laboratory -I#0#0#4#4
+PH302#Solid State Physics#2#1#0#6
+PH304#Measurement Techniques#2#0#2#6
+PH306#Lasers and Ultrafast Optics#3#0#0#6
+PH308#Nuclear Science and Engineering#0#0#0#6
+PH310#Advanced Physics Laboratory#0#0#6#6
+PH309#General Physics Laboratory#0#0#6#6
+PH417#Advanced Physics Lab#0#0#6#6
+PH499#Project II#0#0#6#6
+PH458#Applied superconductivity#3#0#0#6
+PH462#Quantum technology and phenomena in macroscopic systems#3#0#0#6
+PH464#Fundamentals of Cosmology#3#0#0#6
+PH446#Fundamentals of Astrophysics#3#0#0#6
+PH465#Optoelectronics#3#0#0#6
+PH402#Mathematical Physics II#2#1#0#6
+PH404#Statistical Mechanics#3#1#0#8
+PH406#Quantum Mechanics II#3#1#0#8
+PH408#Measurement techniques#2#0#2#6
+PH410#Electrodynamics I#3#1#0#8
+PH412#General Physics Laboratory I#0#0#6#6
+PH411#Electronics Laboratory#0#0#6#6
+PH511#General Physics Laboratory II#0#0#6#6
+PH516#Advanced Physics Laboratory#0#0#6#6
+PH518#Project#0#0#12#12
+PH534#Fibre Optics#3#0#0#6
+PH536#Quantum Optics#3#0#0#6
+PH541#Quantum Computation and Quantum Information#3#0#0#6
+PH544#High Energy Physics#3#0#0#6
+PH702#Statistical methods in condensed matter physics#3#0#0#6
+PH704#Fourier and Guided-wave optics#3#0#0#6
+PH706#Gravitation and cosmology#3#0#0#6
+PH708#Mini project#0#0#0#6
+PH282M#Engineering Optics#3#0#0#6
+PH382M#Laser Physics & Technology#3#0#0#6
+PH210#General Physics Lab#0#0#6#6
+PH312#Mini Project#0#0#6#6
+PH456#Physics of Carbon-Based Materials#3#0#0#6
+CH222#Applied Organic Chemistry#3#0#0#6
+CH224#Group Theory#3#0#0#6
+CH211#Industrial Chemistry#3#0#0#6
+CH233#Spectroscopic Techniques in Chemistry#3#0#0#6
+CH223#Chemical Technology Lab I#0#0#6#6
+CH332#Computational Chemistry#0#0#0#6
+CH314#Chemical Technology Lab II#0#0#6#6
+CH323#Polymer Chemistry#3#0#0#6
+CH334#Chemical Technology Lab III#0#0#6#6
+CH419#Consumer Chemistry#3#0#6#6
+CH316#Frontiers of Coordination Chemistry#3#0#0#6
+CH418#Biological Chemistry of Metal Ions#3#0#0#6
+CH428#Drug Design and Development#3#0#0#6
+CH644#Applied Quantum Chemistry#2#0#2#6
+CH499#Project II#0#0#6#6
+CH400#Computers and Chemistry#2#0#2#6
+CH411#Inorganic Reaction Mechanism and Organometallics#3#1#0#8
+CH421#Organic Reactions and Mechanisms#3#1#0#8
+CH425#Organic Chemistry Laboratory#0#0#9#9
+CH432#Chemical Dynamics & Electrochemistry#3#1#0#8
+CH435#Physical Chemistry Laboratory#0#0#9#9
+CH515#Inorganic Chemistry Laboratory#0#0#0#9
+CH600#Project#0#0#18#18
+CH603#Concept of Molecular Machine#3#0#0#6
+CH611#Advanced Organometallic Chemistry#0#0#0#6
+CH631#Advanced Quantum Chemistry#0#0#0#6
+CH622#Methods in Organic Synthesis#0#0#0#6
+CH639#Principles and Applications of Molecular Fluorescence#0#0#0#6
+CH618#Bio-inorganic Chemistry#0#0#0#6
+CH627#New Reagents for Organic Synthesis#0#0#0#6
+CH614#Supramolecules: Concepts and Applications#0#0#0#6
+CH629#Advances in Bioorganic Chemistry#0#0#0#6
+MA499#Project II#0#0#10#10
+MA224#Real Analysis#3#0#0#6
+MA252#Design and Analysis of Algorithms#3#0#0#6
+MA271#Financial Engineering I#3#0#0#6
+MA322#Scientific Computing#3#0#2#8
+MA324#Statistical Inference and Multivariate Analysis#3#0#0#6
+MA373#Financial Engineering II#3#0#0#6
+MA374#Financial Engineering Lab#0#0#3#3
+MA351#Theory of Computation#4#0#0#8
+MA473#Computational Finance#3#0#2#8
+MA212M#Mathematical Statistics#3#0#0#6
+MA312M#Modern Algebra#3#0#0#6
+MA588#R Programming Lab#0#0#3#3
+MA512#Data Structures and Algorithms#3#0#2#8
+MA542#Differential Equations#4#0#0#8
+MA547#Complex Analysis#3#1#0#8
+MA590#Probability Theory#3#1#0#8
+MA591#Optimization Techniques#3#1#0#8
+MA571#Numerical Linear Algebra#3#0#2#8
+MA573#Numerics of Partial Differential Equations#3#0#2#8
+MA699#Project#0#0#12#12
+MA625#Linear Algebra -1#3#1#0#8
+MA642#Real Analysis -1#3#1#0#8
+MA662#Differential Equations#3#1#0#8
+MA601#Graphs and Matrices#3#0#0#6
+MA509#Algebraic Number Theory#3#0#0#6
+MA597#Queueing Theory and Applications#3#0#0#6
+MA651#Distributed Algorithms#3#0#0#6
+MA477#Financial Risk Management And Modelling#3#0#0#6
+MA575#Mathematical Methods#3#0#0#6
+MA616#Algorithms for Wireless Ad Hoc and Sensor Networks#3#0#0#6
+MA652#Approximation Algorithm#3#0#0#6
+MA550#Measure Theory#3#0#0#6
+MA691#Advanced Statistical Algorithms#3#0#0#6
+MA741#Complex Analysis#4#0#0#8
+MA733#Spectral Perturbation Theory for Matrices and Matrix Pencils#4#0#0#8
+MA624#Introduction to Lie Algebras#3#0#0#6
+MA719#Linear Algebra - II#4#0#0#8
+MA766#Computational fluid dynamics#4#0#0#8
+HS107#Problems of Philosophy#0#0#0#6
+HS113#Cognitive Psychology#3#0#0#6
+HS114#Cultural Theory and Practice#3#0#0#6
+HS116#Sociology of India: Conformities and Contradictions#3#0#0#6
+HS123#Game Theory and Economics#3#0#0#6
+HS125#Macroeconomics#3#0#0#6
+HS132#History of Modern India#0#0#0#6
+HS134#Introduction to Archaeology#3#0#0#6
+HS135#Topics in Bilingualism#0#0#0#6
+HS136#Introduction to Indian constitution and political processes#3#0#0#6
+HS138#Psychology of Well Being#3#0#0#6
+HS139#The Short Story: Theory and Perspectives#0#0#0#6
+HS401#Management of Organizational Behaviour#0#0#0#6
+HS409#Environmental Economics#3#0#0#6
+HS415#History of Contemporary India#3#0#0#6
+HS420#Writing Systems of the World#3#0#0#6
+HS421#Sociological Perspectives on Modernity#3#0#0#6
+HS424#Economics of Uncertainty and Information#3#0#0#6
+HS425#Literature and Science Writing#3#0#0#6
+HS427#Transboundary Waters: Conflict and Cooperation#3#0#0#6
+HS429#Indian Business History#3#0#0#6
+HS232M#Linguistic Analysis#3#0#0#6
+HS320M#Language and Film: The Word and the Image#0#0#0#6
+HS503#Sociology of Development#3#1#0#8
+HS517#Comparative Politics in Developing Countries#3#1#0#8
+HS523#Economic Development: Theory and Practice#3#1#0#8
+HS524#Qualitative Research Methods in Social Sciences#3#1#0#8
+HS525#India‟s Development: Issues and Debates#3#1#0#8
+HS621#Public Health and Development in India#3#0#0#6
+HS628#Efficacy of Visual Images#0#0#0#6
+HS608#Rural Labour Market in India#0#0#0#6
+HS604#Development Finance#3#0#0#6
+HS729#Sociological Theory#3#0#0#6
+HS730#Research Methods in Sociology#3#0#0#6
+HS721#Research in Cultural Studies#3#0#0#6
+HS722#Cultural Anthropology#3#0#0#6
+HS706#Topics in Economics#3#0#0#6
+HS735#Experimental Phonology#3#0#0#6
+HS745#Phonological Acquisition#3#0#0#6
+HS714#Understanding Organizational Behaviour: Theory and Research#3#0#0#6
+HS716#Research Methods in Psychology#3#0#0#6
+HS713#Criticism: Theory and Application#3#0#0#6
+HS704#Crossing Cultures#3#0#0#6
+HS754#Dynamics Methods in Economics#3#0#0#6
+HS768#Bilingualism: Language and Cognition#3#0#0#6
+HS734#Perspectives in Linguistics#3#0#0#6
+HS749#Issues in Tone Languages#0#0#0#6
+HS757#Sociology of Religion#3#0#0#6
+RT514#Water Resources Management#3#0#0#6
+RT520#Field Work and Effective Communication#0#1#4#6
+RT512#Livelihood and Entrepreneurship#3#0#0#6
+RT515#Natural resources management#3#0#2#8
+RT517#Agri-horticultural produce processing technology#3#0#2#8
+RT692#Project Phase II#0#0#24#24
+EN674#Energy Efficiency, Planning and Management#3#0#0#6
+EN697#Project 1#0#0#12#12
+EN671#Solar Energy Conversion Technology#3#0#0#6
+EN699#Project 3#0#0#24#24
+LS501#Mathematics and Statistics#2#2#0#8
+LS551#Introduction to Language Science#2#2#0#8
+NT705#Recent Advances in Nanotechnology#3#0#0#6
+IFST017#Joint Degree Dissertation I#0#0#2#4
+IFST020#Dissertation Part IV#0#0#0#18
+SA216#Yoga-3#0#0#0#0

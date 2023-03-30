@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 41: Using initial value of <arg fmt="%s" index="1">ss_data_in</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 60: Assignment to <arg fmt="%s" index="1">alu_cout</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 60: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cin</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 77: Signal &lt;<arg fmt="%s" index="1">count</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 91: Signal &lt;<arg fmt="%s" index="1">count_alu</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 117: Signal &lt;<arg fmt="%s" index="1">count</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 117: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 125: Signal &lt;<arg fmt="%s" index="1">ss_data_out</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 136: Signal &lt;<arg fmt="%s" index="1">ss_address</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 136: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 137: Signal &lt;<arg fmt="%s" index="1">rf_reg_id</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 137: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 138: Signal &lt;<arg fmt="%s" index="1">count</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 138: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 144: Signal &lt;<arg fmt="%s" index="1">rf_reg_id</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 144: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 149: Signal &lt;<arg fmt="%s" index="1">tmp</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 154: Signal &lt;<arg fmt="%s" index="1">rf_reg_id</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 154: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 158: Signal &lt;<arg fmt="%s" index="1">tmp</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 163: Signal &lt;<arg fmt="%s" index="1">rf_reg_id</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 163: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 167: Signal &lt;<arg fmt="%s" index="1">tmp</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 180: Signal &lt;<arg fmt="%s" index="1">count_alu</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 180: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 184: Signal &lt;<arg fmt="%s" index="1">rf_data_out</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 189: Signal &lt;<arg fmt="%s" index="1">rf_data_out</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 190: Signal &lt;<arg fmt="%s" index="1">tmp</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 194: Signal &lt;<arg fmt="%s" index="1">rf_data_out</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 195: Signal &lt;<arg fmt="%s" index="1">tmp</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 200: Signal &lt;<arg fmt="%s" index="1">alu_out</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 201: Signal &lt;<arg fmt="%s" index="1">tmp</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 211: Signal &lt;<arg fmt="%s" index="1">count_alu</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 211: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 212: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"/home/ise/Desktop/CS_224/Lab10/mem_module.v" Line 215: Signal &lt;<arg fmt="%s" index="1">ss_data_in</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Desktop/CS_224/Lab10/mem_module.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">SS</arg>&gt; of block &lt;<arg fmt="%s" index="4">sync_sram</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mem_controller</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Desktop/CS_224/Lab10/mem_module.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RF</arg>&gt; of block &lt;<arg fmt="%s" index="4">reg_file</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mem_controller</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Desktop/CS_224/Lab10/mem_module.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">alu</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mem_controller</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/Desktop/CS_224/Lab10/mem_module.v</arg>&quot; line <arg fmt="%s" index="2">60</arg>: Output port &lt;<arg fmt="%s" index="3">cout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

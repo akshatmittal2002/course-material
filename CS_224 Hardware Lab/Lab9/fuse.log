@@ -1,0 +1,28 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Desktop/CS_224/Lab9/test1_isim_beh.exe -prj /home/ise/Desktop/CS_224/Lab9/test1_beh.prj work.test1 work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Desktop/CS_224/Lab9/sync_sram.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/CS_224/Lab9/reg_file.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/CS_224/Lab9/ALU.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/CS_224/Lab9/mem_controller.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/CS_224/Lab9/test1.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/ise/Desktop/CS_224/Lab9/mem_controller.v" Line 60: Size mismatch in connection of port <cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 94924 KB
+Fuse CPU Usage: 1080 ms
+Compiling module sync_sram
+Compiling module reg_file
+Compiling module ALU
+Compiling module mem_controller
+Compiling module test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 6 Verilog Units
+Built simulation executable /home/ise/Desktop/CS_224/Lab9/test1_isim_beh.exe
+Fuse Memory Usage: 98132 KB
+Fuse CPU Usage: 1140 ms
+GCC CPU Usage: 440 ms

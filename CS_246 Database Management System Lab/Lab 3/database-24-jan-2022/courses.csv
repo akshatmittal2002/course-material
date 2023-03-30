@@ -1,0 +1,460 @@
+CourseNo.#Course Title#L#T#P#C#Type of Course
+BT202M#Molecular Biotechnology#3#0#0#6#Minor
+BT206#Microbiology#3#0#0#6#Compulsory
+BT207#Genetic Engineering#3#0#0#6#Compulsory
+BT208#Transport Phenomenon in Bioprocesses#3#1#0#8#Compulsory
+BT209#Bioreaction Engineering#3#0#0#6#Compulsory
+BT211#Basic Biotechnology Lab#0#0#6#6#Compulsory
+BT305#Computational Biology#2#0#2#6#Compulsory
+BT306#Bioseparation Engineering#3#0#2#8#Compulsory
+BT307#Biological Data Analysis#2#0#2#6#Compulsory
+BT308#Bioengineering#3#0#0#6#Compulsory
+BT402#BTech Project-II#0#0#6#6#Compulsory
+BT403#Human Biology and Diseases#3#0#0#6#Dept. Elective
+BT411#Metagenomics#3#0#0#6#Dept. Elective
+BT412#Enzymology#3#0#0#6#Dept. Elective
+BT416#Bioenvironmental Engineering#3#0#0#6#Dept. Elective
+BT420#Drug Design and Discovery#3#0#0#6#Dept. Elective
+BT502#Quantitative Biology#3#0#2#8#Compulsory
+BT504#Biomolecular and Cellular Process Engineering#3#0#0#6#Compulsory
+BT520#Applied Biology and Bioengineering Lab#0#0#6#6#Compulsory
+BT601#Analytical Biotechnology#3#0#0#6#Dept. Elective
+BT605#Gene Therapy#3#0#0#6#Dept. Elective
+BT608#Microbial Biotechnology#3#0#0#6#Dept. Elective
+BT609#Bioprocess Engineering#3#0#0#6#Dept. Elective
+BT619#Essentials of Genetics (OPEN ELECTIVE)#3#0#0#6#Open Elective
+BT621#Advances in Plant Genetic Engineering and Functional Genomics#3#0#0#6#Dept. Elective
+BT622#Biofuels#3#0#0#6#Dept. Elective
+BT630#Physical Cell Biology (OPEN ELECTIVE)#3#0#0#6#Open Elective
+BT634#Animal Models in Biomedical Research#3#0#0#6#Dept. Elective
+BT639#NMR Spectroscopy: Principles and Applications#3#0#0#6#Dept. Elective
+BT640#Neural Imaging and Signal Systems#3#0#0#6#Dept. Elective
+BT643#Biointerface Engineering#3#0#0#6#Dept. Elective
+BT699#M. Tech Project II (MTP II)#0#0#0#24#Compulsory
+BT651#Quantum Chemistry of Atoms and Molecules#3#0#0#6#Dept. Elective
+CE201#Surveying#3#0#0#6#Compulsory
+CE205#Structural Analysis I#3#0#0#6#Compulsory
+CE206#Geotechnical Engineering#3#0#0#6#Compulsory
+CE213#Surveying Laboratory#0#0#2#2#Compulsory
+CE215#Geotechnical Engineering Laboratory#0#0#2#2#Compulsory
+CE220#Hydraulics and Hydraulic Structures#3#0#0#6#Compulsory
+CE221#Hydraulics and Hydraulic Structures Laboratory#0#0#2#2#Compulsory
+CE222#Environmental Engineering I#3#0#0#6#Compulsory
+CE223#Environmental Engineering I Lab#0#0#2#2#Compulsory
+CE252M#Infrastrcture and Transportation Systems Planning#3#0#0#6#Minor
+CE308#Construction Technology and Management#3#0#0#6#Compulsory
+CE309#Design of Steel Structures#3#1#0#8#Compulsory
+CE320#Engineering Hydrology#3#0#0#6#Compulsory
+CE321#Hydrology Laboratory#0#0#2#2#Compulsory
+CE322#Transportation Engineering II#3#0#0#6#Compulsory
+CE323#Transportation Engineering II - Laboratory#0#0#2#2#Compulsory
+CE324#Mathematical Concepts and Applications in Civil Engineering#3#1#0#8#Compulsory
+CE504#Advanced Structural Design#3#0#0#6#Compulsory
+CE510#Quality and Safety Management in Construction#3#0#0#6#Dept. Elective
+CE511#Analysis and Design of Bridges#3#0#0#6#Compulsory
+CE514#Plates, Shells  and Elastic Stability#3#0#0#6#Dept Elective
+CE524#Biological Process in Environmental Engineering#3#0#0#6#Compulsory
+CE525#Solids and Hazardous Waste#3#0#0#6#Compulsory
+CE533#Advance Foundation Engineering#3#1#0#8#Compulsory
+CE534#Seminar Course#0#0#2#2#Compulsory
+CE544#Project Management Laboratory#0#0#3#3#Compulsory
+CE552#Water Resources Systems Analysis, planning & Management#3#0#0#6#Dept Elective
+CE555#Principles of Water Quality and EIA#3#0#0#6#Compulsory
+CE556#Subsurface Hydrology#3#0#0#6#Compulsory
+CE559#Watershed Management and Remote Sensing Applications#3#0#0#6#Dept Elective for M.Tech Open Elective for B.Tech
+CE583#Pavement Analysis and Design#3#0#0#6#Compulsory
+CE584#Traffic Engineering#3#0#2#8#Compulsory
+CE585#Credit Seminar#0#0#2#2#Compulsory
+CE594#Geohazards Science and Engineering#3#0#0#6#Compulsory
+CE595#Advanced Techniques in Geosciences#2#0#2#6#Compulsory
+CE606#Earthquake Engineering#3#0#0#6#Dept. Elective
+CE607#Random Vibration#3#0#0#6#Dept. Elective
+CE608#Reliability based Structural Design#3#0#0#6#Dept Elective
+CE610#Computational Structural Mechanics#3#0#0#6#Dept Elective
+CE612#Advanced Concrete Technology#3#0#0#6#Compulsory
+CE614#Financing Infrastructure Projects#3#0#0#6#Compulsory
+CE615#Design of Masonry Structures#3#0#0#6#Dept. Elective
+CE618#Mechanics of Unsaturated Soils#3#0#0#6#Dept Elective
+CE628#Traffic Flow Modelling and Simulation#3#0#0#6#Dept. Elective
+CE623#Pavement Evaluation, Rehabilitation and Maintenance#3#0#0#6#Dept. Elective
+CE624#Highway construction practise#3#0#0#6#Dept. Elective
+CE642#Subsurface Invstigation and Instrumentation#3#0#0#6#Open Elective
+CE646#Rock Mechanics#3#0#0#6#Elective
+CE664#Industrial Wastewater Pollution Control#3#0#0#6#Dept Elective
+CE665#Water Distribution and Wastewater Collection System Design#3#0#0#6#Dept Elective
+CH211#Industrial Chemistry#3#0#0#6#Compulsory
+CH222#Applied Organic Chemistry#3#0#0#6#Compulsory
+CH223#Chemical Technology Lab - I (Organic)#0#0#6#6#Compulsory, Lab
+CH224#Group Theory#3#0#0#6#Compulsory
+CH233#Spectroscopic Techniques in Chemistry#3#0#0#6#Compulsory
+CH323#Polymer Chemistry#3#0#0#6#Compulsory
+CH332#Computational Chemistry#3#0#0#6#Compulsory
+CH334#Chemical Technology Lab - III (Physical)#0#0#6#6#Compulsory, Lab
+CH335#Application of Nanomaterials#3#0#0#6#Compulsory
+CH400#Computers and Chemistry#2#0#2#6#Compulsory
+CH411#Inorganic Reaction Mechanism and Organometallics#3#1#0#8#Compulsory
+CH418#Biological Chemistry of Metal Ions#3#0#0#6#Dept. Elective - III
+CH419#Consumer Chemistry#3#0#0#6#Open Elective
+CH421#Organic Reactions Mechanisms#3#1#0#8#Compulsory
+CH425#Organic Chemistry Laboratory#0#0#9#9#Compulsory, Lab
+CH428#Drug Design and Development#3#0#0#6#Dept. Elective - IV
+CH432#Chemical Dynamics and Electrochemistry#3#1#0#8#Compulsory
+CH433#Applications of Spectroscopy#3#1#0#8#Compulsory
+CH437#Chemical Approaches to Nanoscale Science and Technology#3#0#0#6#Dept. Elective -V
+CH438#Application to Statistical Mechanics to Chemistry#3#0#0#6#Dept. Elective - IV
+CH499#Project - II#0#0#12#12#Compulsory
+CH500#Graduate Seminar#0#0#2#2#Compulsory
+CH600#Project#0#0#18#18#Compulsory
+CH603#Concepts of Molecular Machine#3#0#0#6#Dept. Elective
+CH613#Applied Inorganic Chemistry#3#0#0#6#Dept. Elective - I
+CH617#Organometallics#3#0#0#6#Dept. Elective
+CH618#Bio-inorganic Chemistry#3#0#0#6#Dept. Elective
+CH621#Modern Reagents in Organic Synthesis#3#0#0#6#Dept. Elective - I
+CH623#Supramolecular Chemistry#3#0#0#6#Dept. Elective-I
+CH627#New Reagents for Organic Synthesis#3#0#0#6#Dept. Elective
+CH629#Advances in Bio-organic Chemistry#3#0#0#6#Dept. Elective
+CH636#A Fundamental Approach to Physical Chemistry#3#0#0#6#Dept. Elective
+CH639#Principles and Applications of Molecular Fluorescence#3#0#0#6#Dept. Elective - II
+CH644#Applied Quantum Chemistry#2#0#2#6#Open Elective
+CL205#Mass Transfer Operations I#3#1#0#8#Compulsory
+CL206#Solid Fluid Operations#3#0#0#6#Compulsory
+CL207#Computer Aided Numerical Methods#2#1#2#8#Compulsory
+CL208#Chemical Reaction Engineering I#2#1#0#6#Compulsory
+CL209#Process Equipment Design I#1#0#3#5#Compulsory
+CL210H#Laboratory 1: Fluid Mechanics#0#0#3#1.5#Compulsory
+CL211H#Laboratory 2: Heat Transfer#0#0#3#1.5#Compulsory
+CL304#Chemical Process Technology#3#0#0#6#Compulsory
+CL305#Transport Phenomena#2#1#0#6#Compulsory
+CL306#Process Engineering & Economics#2#1#0#6#Compulsory
+CL312#Computer Aided Process Equipmen Design#0#0#3#3#Compulsory
+CL313#Laboratory 4: Mass Transfer#0#0#3#3#Compulsory
+CL314H#Laboratory 5: Reaction Engineering#0#0#3#1.5#Compulsory
+CL315H#Laboratory 6: Process Control#0#0#3#1.5#Compulsory
+CL503#Advanced Thermodynamics#3#0#0#6#Compulsory
+CL504#Advanced reaction Engineering#3#0#0#6#Compulsory
+CL505#Petroleum Production Engineering#3#0#0#6#Compulsory
+CL506#Smart Materials#3#0#0#6#Compulsory
+CL514#Fundamentals of Material Science & Engineering#3#0#0#6#Compulsory
+CL598#Petroleum Laboratory#0#0#3#3#Compulsory
+CL599#Scientific Communications#0#0#2#2#Compulsory
+CL612#Colloid and Interface Science#3#0#0#6#Dept. Elective
+CL613#Computational Fluid Dynamics#3#0#0#6#Open Elective Dept. Elective
+CL615#Optimization Techniques#3#0#0#6#Dept. Elective
+CL619#Refinery process design#3#0#0#6#Dept. Elective
+CL622#Molecular simulations: Principles and Applications#3#0#0#6#Dept. Elective
+CL625#Fundamentals of micro-nanofluidics & microfabrication#3#0#0#6#Dept. Elective
+CL626#Energy Resources#3#0#0#6#Dept. Elective
+CL627#Multiphase flow#3#0#0#6#Dept. Elective
+CL628#Catalysis and adsorbents#3#0#0#6#Dept. Elective
+CL634#Applied Rheology#3#0#0#6#Dept. Elective
+CL636#Microelectronic fabrication#3#0#0#6#Dept. Elective
+CL640#Research Methodology and Scientific Writing#3#0#0#6#Dept. Elective
+CL643#Computer aided applied optimization#3#0#0#6#Dept. Elective
+CL650#Quantum technologies in chemcial engineering#3#0#0#6#Dept. Elective
+CL651#Foundations of Data Science for Engineers#3#0#0#6#Open Elective & Dept. Elective
+CS205#Formal Languages, Automata Theory, and Computation#3#0#0#6#Compulsory
+CS206M#Datastructures and Algorithms#3#0#0#6#Minor
+CS207#Design and Analysis of Algorithms#3#0#0#6#Compulsory
+CS223#Computer Architecture and Organization#3#0#0#6#Compulsory
+CS224#Hardware Lab#0#1#4#6#Compulsory
+CS245#Database Management Systems#3#0#0#6#Compulsory
+CS246#Database Management Systems Lab#0#0#4#4#Compulsory
+CS331#Programming Languages Lab#0#1#3#5#Departmental Lab Elective
+CS345#Software Engineering#2#0#0#4#Compulsory
+CS346#Software Engineering Lab#0#0#3#3#Compulsory
+CS348#Implementation of Programming Languages Lab#0#2#3#7#Compulsory
+CS350M#Computer Systems#3#0#0#6#Minor
+CS361#Machine Learning#3#0#0#6#Compulsory
+CS506#Hierarchical Memory Algorithms#3#0#0#6#Departmental Elective
+CS508#Optimization Methods#3#0#0#6#Open Elective
+CS528#High Performance Computing#3#0#0#6#Departmental Elective
+CS529#Topics and Tools in Social Media Data Mining#2#0#2#6#Departmental Elective
+CS534#Approximation Algorithms#3#0#0#6#Departmental Elective
+CS544#Topics in Networks#3#0#0#6#Departmental Elective
+CS549#Computer and Network Security#3#0#0#6#Departmental Elective
+CS558#Computer Systems Lab#0#1#4#6#Compulsory
+CS577#C Based VLSI Design#3#0#0#6#Open Elective
+CS595#Data Visualization Lab#0#0#3#3#Compulsory
+DA671#Introduction to Reinforcement Learning#3#0#0#6#Elective
+DA526#Image Processing with Machine Learning#3#0#0#6#Elective
+DA546#Introduction to Statistical Learning#3#0#0#6#Elective
+DD212#Visual Narratives#1#0#4#6#Compulsory
+DD213#Art and Aesthetics in Design#2#0#2#6#Compulsory
+DD214#Design Workshop#0#1#2#4#Compulsory
+DD215#Cognitive Ergonomics#2#0#2#6#Compulsory
+DD220M#Introduction to Ergonomics#3#0#0#6#Minor
+DD303#Typography and Grid systems#0#2#4#6#Compulsory
+DD311#Systems approach to Design#2#0#4#8#Compulsory
+DD312#Design Evaluation Methods#1#2#0#6#Compulsory
+DD320M#Product Planning and Strategy#3#0#0#6#Minor
+DD322#Animation Fundamentals#1#1#4#8#Elective
+DD324#(PD) Plastics & Composites#1#0#4#6#Elective
+DD325#(VC) Graphic Communication#0#1#4#6#Elective
+DD326#(TD) Introduction to Automobile Design#0#1#4#6#Elective
+DD398#BDes Project II#0#1#8#10#Compulsory
+DD411#Design and Entrepreneurship#1#3#0#8#Compulsory
+DD499#BDes Project IV#3#0#0#6#Compulsory
+DD505#Form Studies#0#2#3#7#Compulsory
+DD506#Graphic Design#0#1#6#8#Compulsory
+DD507#Design Project#0#1#6#8#Compulsory
+DD509#Interaction Design#2#1#0#6#Elective
+DD514#Collaborative Design Methods in New Product Development#1#2#0#6#Elective
+DD516#Digital Human Modelling and Simulation in Product Design#2#0#2#6#Elective
+DD517#Automobile Design#1#1#4#8#Elective
+DD524#Graphic Design Studio#0#1#4#6#Elective
+DD 532#Motion Graphics#2#0#2#6#Elective
+DD605#Thesis Project (Phase II)#0#6#12#24#Compulsory
+DD 606#Product Detailing#2#0#4#8#Elective
+DD709#Design-based Project#0#0#6#6#
+DD710#Research-based Project#0#0#6#6#
+DM503#Hazards monitoring and prediction#3#0#0#6#Compulsory
+DM504#Research methodology and field visit#2#0#2#6#Compulsory
+DM514#Financing for Disaster Risk Reduction (DRR)#3#0#0#6#Elective
+DM515#Rehabilitation and Retrofitting of RC Structures#3#0#0#6#Elective
+EE206#Analog Circuits#3#1#0#8#Compulsory
+EE207#Analog Circuits Laboratory#0#0#3#3#Compulsory
+EE213M#Digital Circuits#3#0#0#6#Minor
+EE230#Probability and Random Processes#3#1#0#8#Compulsory
+EE250#Control Systems#3#1#0#8#Compulsory
+EE252#Measurement and Instrumentation#3#0#0#6#Compulsory
+EE253#Instrumentation Laboratory#0#0#3#3#Compulsory
+EE313#Microelectronics Laboratory#0#0#3#3#Compulsory
+EE314#Flexible and Printable Electronics#3#0#0#6#Dept Elective
+EE322M#Signal Processing#3#0#0#6#Minor
+EE332#Digital Communication#3#0#0#6#Compulsory
+EE333#Communication and DSP Laboratory#0#0#3#3#Compulsory
+EE334#Computer networks#3#0#0#6#Compulsory
+EE335#Information Theory & Coding#3#0#0#6#Dept Elective
+EE352#Advanced Control System#3#0#0#6#Dept Elective
+EE360#Power Electronics#3#0#0#6#Compulsory
+EE370#Electrical Power Systems#3#0#0#6#Compulsory
+EE371#Advanced Electrical Engg Lab#0#0#3#3#Compulsory
+EE381#Electrical Machines Lab#0#0#3#3#Compulsory
+EE390#Data structure and algorithms#2#0#2#6#Compulsory
+EE399#BTP II (New Curriculum)#0#0#3#3#Compulsory
+EE499#BTP Phase - II#0#0#6#6#Compulsory
+EE512#Analog IC Design#3#0#0#6#Compulsory
+EE515#VLSI System Design#3#0#0#6#Compulsory
+EE516#VLSI DSP#3#0#0#6#Compulsory
+EE517#VLSI Lab-II#0#0#4#4#Compulsory
+EE518#VLSI Lab-III#0#0#4#4#Compulsory
+EE521#Digital Signal Processing Lab#0#0#3#3#Compulsory
+EE522#Statistical Signal Processing#3#0#0#6#Compulsory
+EE525#Advanced Topics in Machine Learning#3#0#0#6#Compulsory
+EE526#Machine Learning#3#0#0#6#Compulsory
+EE527#Machine Learning Laboratory#0#0#3#3#Compulsory
+EE533#Wireless Communications#3#0#0#6#Compulsory
+EE534#Communication System Design Lab#0#0#3#3#Compulsory
+EE535#Data Communication Network#3#0#0#6#Compulsory
+EE541#Antennas, RF and Microwave Laboratory#0#0#3#3#Compulsory
+EE543#Computational Electromagnetics#3#0#0#6#Compulsory
+EE544#Photonics Devices and Circuits#3#0#0#6#Compulsory
+EE553#Optimal Control#3#0#0#6#Compulsory
+EE554#Nonlinear Systems and Control#3#0#0#6#Compulsory
+EE555#Automation Laboratory#0#0#3#3#Compulsory
+EE562#Power Electronics Applications in Power Systems#3#0#0#6#Compulsory
+EE572#Power Engineering Laboratory#0#0#3#3#Compulsory
+EE580#Electrical Machines and Drive Systems#3#0#0#6#Compulsory
+EE592#Detection and Estimation Theory#3#0#0#6#Compulsory
+EE595H#Stochastic Models#3#0#0#3#Compulsory
+EE596H#Optimization Techniques#3#0#0#3#Compulsory
+EE611#Organic Semiconductor Devices#3#0#0#6#OpenElective
+EE613#Radio Frequency Integrated Circuits#3#0#0#6#Dept Elective
+EE621#Computer Vision#3#0#0#6#Dept Elective
+EE622#Biomedical Signal Processing#3#0#0#6#Dept Elective
+EE627#Biometrics#3#0#0#6#Dept Elective
+EE633#Error Control Codes#3#0#0#6#Dept Elective
+EE634#MIMO Wireless Communications: Fundamentals and Advances#3#0#0#6#Dept Elective
+EE643#Silicon Photonics#3#0#0#6#Dept Elective
+EE655#Mathematical Techniques for Control and Signal Processing#3#0#0#6#Dept Elective
+EE656#Robust Control#3#0#0#6#Dept Elective
+EE661#Power Electronics for Renewable Energy Systems#3#0#0#6#Dept Elective
+EE674#Synchrophasor Technology#3#0#0#6#Dept Elective
+EE694#Introduction to Parallel computing#3#0#0#6#Dept Elective
+EE696#Power Electronic Systems for Electric Vehicles#3#0#0#6#Dept Elective
+EE699#MTP Phase II#0#0#24#24#Compulsory
+EN671#Solar Energy Conversion Technology#3#0#0#6#Open Elective
+EN674#Energy Economics, Planning and Management#3#0#0#6#Compulsory/Dept.  Elective
+EN697#Project 1#0#0#12#12#Compulsory
+EN699#Project 3#0#0#24#24#Compulsory
+HS107#Problems of Philosophy#3#0#0#6#HSS Elective
+HS113#Cognitive Psychology#3#0#0#6#HSS Elective
+HS119#Sociology of Science#3#0#0#6#HSS Elective
+HS123#Game Theory and Economics#3#0#0#6#HSS Elective
+HS125#Introductory Macroeconomics#3#0#0#6#HSS Elective
+HS134#Introduction to Archaeology#3#0#0#6#HSS Elective
+HS135#Topics in Bilingualism#3#0#0#6#HSS Elective
+HS136#Introduction to Indian Constitution and Political Processes#3#0#0#6#HSS Elective
+HS138#Psychology of Well Being#3#0#0#6#HSS Elective
+HS139#The Short Story: Theory and Perspectives#3#0#0#6#HSS Elective
+HS148#Development and its Discontents#3#0#0#6#HSS Elective
+HS217#Social History of Technology in Modern India#3#0#0#6#HSS Elective
+HS218#Ecology and Society#3#0#0#6#HSS Elective
+HS221#Management of Organization Behaviour#3#0#0#6#HSS Elective
+HS222#Philosophy of Science#3#0#0#6#HSS Elective
+HS229#Environmental Economics#3#0#0#6#HSS Elective
+HS232M#Linguistic Analysis#3#0#0#6#Minor
+HS233#History of Contemporary India#3#0#0#6#HSS Elective
+HS235#Writing Systems of the World#3#0#0#6#HSS Elective
+HS239#Economics of Uncertainty and Information#3#0#0#6#HSS Elective
+HS240#Literature and Science Writing#3#0#0#6#HSS Elective
+HS242#Transboundary Waters: Conflict and Cooperation#3#0#0#6#HSS Elective
+HS244#Indian Business History#3#0#0#6#HSS Elective
+HS245#Social Choice and Welfare#3#0#0#6#HSS Elective
+HS320M#Literature and Film: The Word and the Image#3#0#0#6#Minor
+HS503#Sociology of Development#3#1#0#8#Compulsory
+HS517#Comparative Politics of Developing Countries#3#1#0#8#Compulsory
+HS523#Economic Development: Theory and Practice#3#1#0#8#Compulsory
+HS524#Qualitative Research Methods in Social Sciences#3#1#0#8#Compulsory
+HS525#India's Development: Issues and Debates#3#1#0#8#Compulsory
+HS604#Development and Finance#3#0#0#6#Dept. Elective
+HS606#Sociology of Gender#3#0#0#6#Dept. Elective
+HS699#Dissertation#0#0#0#32#Compulsory
+HS707#Invisible Exchanges#3#0#0#6#Dept. Elective
+HS712#Introduction to Western Philosophy#3#0#0#6#Dept. Elective
+HS714#Understanding Organizational Behaviour: Theory and Research#3#0#0#6#Dept. Elective
+HS716#Research Methodology in Psychology#3#0#0#6#Dept. Elective
+HS719#Philosophy of Religion#3#0#0#6#Dept. Elective
+HS724#History in Indian Vernaculars#3#0#0#6#Dept. Elective
+HS727#Issues in Historical Research#3#0#0#6#Dept. Elective
+HS731#Heritage, Identity and Archaeology#3#0#0#6#Dept. Elective
+HS732#Issues in Cultural Studies#3#0#0#6#Dept. Elective
+HS733#Issues in Phonological Theory#3#0#0#6#Dept. Elective
+HS734#Perspectives in Linguistics#3#0#0#6#Dept. Elective
+HS735#Experimental Phonology#3#0#0#6#Dept. Elective
+HS740#Issues in Applied Ethics: a multicultural approach#3#0#0#6#Dept. Elective
+HS749#Issues in Tone Languages#3#0#0#6#Dept. Elective
+HS753#Topics in International Relations#3#0#0#6#Dept. Elective
+HS763#Research Methods in Political Science#3#0#0#6#Dept. Elective
+HS771#Key Texts in Modern Political Thought#3#0#0#6#Dept. Elective
+HS768#Bilingualism: language and cognition#3#0#0#6#Dept. Elective
+HS780#Understanding Social Movements#3#0#0#6#Dept. Elective
+HS781#Approaches to Diplomatic and Military History#3#0#0#6#Dept. Elective
+HS784#Acoustic Analyses of Tone Languages#3#0#0#6#Dept. Elective
+LS521#Phonetics and Speech#3#0#0#6#ELECTIVE
+LS551#Introduction to Language Science#3#0#0#6#ELECTIVE
+IFST017#Joint Degree Dissertation I#0#0#8#4#Compulsory
+IFST020#Dissertation Part IV#0#0#18#18#Compulsory
+MA212M#Mathematical Statistics#3#0#0#6#Minor
+MA224#Real Analysis#3#0#0#6#Compulsory
+MA252#Design and Analysis of Algorithms#3#0#0#6#Compulsory
+MA271#Financial Engineering - I#3#0#0#6#Compulsory
+MA312M#Modern Algebra#3#0#0#6#Minor
+MA322#Scientific Computing#3#0#2#8#Compulsory
+MA324#Statistical Inference and Multivariate Analysis#3#0#0#6#Compulsory
+MA351#Theory of Computation#4#0#0#8#Compulsory
+MA373#Financial Engineering - II#3#0#0#6#Compulsory
+MA374#Financial Engineering Laboratory#0#0#3#3#Compulsory
+MA477#Financial Risk Management and Modelling#3#0#0#6#Dept. Elective
+MA499#Project - II#0#0#10#10#Compulsory
+MA510#Combinatorics#3#0#0#6#Dept. Elective
+MA512#Data Structures and Algorithms#3#0#2#8#Compulsory
+MA542#Differential Equations#4#0#0#8#Compulsory
+MA547#Complex Analysis#3#1#0#8#Compulsory
+MA562#Mathematical Modelling and Numerical Simulation#3#0#0#6#Dept. Elective
+MA571#Numerical Linear Algebra#3#0#2#8#Compulsory
+MA573#Numerics of Partial Differential Equations#3#0#2#8#Compulsory
+MA588#R Programming Lab#0#0#3#3#Compulsory
+MA590#Probability Theory#3#1#0#8#Compulsory
+MA591#Optimization Techniques#3#1#0#8#Compulsory
+MA597#Queueing Theory and Applications#3#0#0#6#Dept. Elective
+MA601#Graphs and Matrices#3#0#0#6#Open Elective
+MA617#Design and Analysis of Algorithms#3#0#0#6#Compulsory
+MA618#Mathematics for Computer Science#3#0#0#6#Compulsory
+MA619#Data Structures Lab#0#2#2#6#Compulsory
+MA621#Rings and Modules#3#0#0#6#Dept. Elective
+MA623#Introduction to Algebraic Geometry#3#0#0#6#Dept. Elective
+MA625#Linear Algebra - I#3#1#0#8#Compulsory
+MA642#Real Analysis - I#3#1#0#8#Compulsory
+MA645#Introduction to C*-Algebras#3#0#0#6#Dept. Elective
+MA650#Advanced Course on Hardy Spaces#3#1#0#8#Dept. Elective
+MA651#Distributed Algorithms#3#0#0#6#Dept. Elective
+MA652#Approximation Algorithms#3#0#0#6#Dept. Elective
+MA662#Differential Equations#3#1#0#8#Compulsory
+MA699#Project#0#0#12#12#Compulsory
+MA746#Fourier Analysis#4#0#0#8#Dept. Elective
+ME202M#Mechatronics#2#0#2#6#Minor
+ME221#Fluid Mechanics – I I (Div-1)#3#0#0#6#Compulsory
+ME222#Manufacturing Technology – I  (Div-1)#3#0#0#6#Compulsory
+ME223#Solid Mechanics – II (Div-1)#3#0#0#6#Compulsory
+ME224#Kinematics of Machinery (Div-1)#2#1#0#6#Compulsory
+ME225#Mechanical Workshop – II (Div-1)#0#0#6#6#Compulsory
+ME226#Mechanical Engineering Lab – II  (Div-1) (Kinematics, Data Acquisition, Turbomachinery)#0#0#3#3#Compulsory
+ME302M#Fundamentals of Artificial Intelligence#2#0#2#6#Minor
+ME321#Applied Thermodynamics (Div-1)#3#0#0#6#Compulsory
+ME322#Machine Design (Div I)#2#0#2#6#Compulsory
+ME323#Mechanical Measurements (Div I)#3#0#0#6#Compulsory
+ME324#Industrial Engineering and Operations Reseach.#3#0#0#6#Compulsory
+ME325#Control Systems (Div I)#3#0#0#6#Compulsory
+ME326#Mechanical Engineering Lab – IV  (Tribology, Thermal Science, Instrumentation and Control)#0#0#3#3#Compulsory
+ME511#Engineering Materials and Characterization#3#0#0#6#Compulsory
+ME513#Physics of Deformation Processes#3#0#0#6#Compulsory
+ME515#Manufacturing Laboratory#0#0#6#6#Compulsory
+ME522#Convective Heat Transfer#3#0#0#6#Compulsory
+ME541#Continuum Mechanics#3#0#0#6#Compulsory
+ME542#Numerical Analysis#2#0#2#6#Compulsory
+ME544#Computational Mechanics Laboratory#0#0#2#2#Compulsory
+ME552#Aircraft Propulsion#3#0#0#6#Compulsory
+ME553#Gas Dynamics#3#0#0#6#Compulsory
+ME554#Rocket Propulsion#3#0#0#6#Compulsory
+ME605#Fracture, Fatigue and Failure Analysis#3#0#0#6#ELECTIVE
+ME607#Introduction to Composite Materials#3#0#0#6#ELECTIVE
+ME612#Nuclear Energy: Concepts and Applications#3#0#0#6#ELECTIVE
+ME615#Rotor Dynamics#3#0#0#6#ELECTIVE
+ME619#Fundamentals of Microfluidics#3#0#0#6#ELECTIVE
+ME621#Refrigeration and Air-conditioning#3#0#0#6#ELECTIVE
+ME628#Additive Manufacturing#3#0#0#6#ELECTIVE
+ME648#Viscous Fluid Flow#3#0#0#6#ELECTIVE
+ME657#Two Phase Flow and Heat Transfer#3#0#0#6#ELECTIVE
+ME664#Sports Biomechanics#2#0#2#6#ELECTIVE
+ME670#Computational Fluid Dynamics#3#0#0#6#ELECTIVE
+ME674#Soft Computing for Engineers#3#0#0#6#ELECTIVE
+ME683#Computational Gas Dynamics#3#0#0#6#ELECTIVE
+ME688#Advanced machining processes#3#0#0#6#ELECTIVE
+NT705#Recent Advances in Nanotechnology#3#0#0#6#Dept. Elective
+PH202#Electromagnetics#3#1#0#8#Compulsory
+PH204#Quantum Mechanics-I#2#1#0#6#Compulsory
+PH206#Computational Physics#2#0#2#6#Compulsory
+PH208#Digital electronics & microprocessors#3#0#0#6#Compulsory
+PH210#General Physics Laboratory-I#0#0#6#6#Compulsory
+PH282M#Engineering optics#3#0#0#6#Minor
+PH302#Solid state physics#2#1#0#6#Compulsory
+PH304#Measurement techniques#2#0#2#6#Compulsory
+PH306#Lasers and Ultra Fast Optics#3#0#0#6#Compulsory
+PH308#Nuclear science & technology#3#0#0#6#Compulsory
+PH310#Advance Physics Laboratory#0#0#0#6#Compulsory
+PH312#Mini Project#0#0#0#6#Compulsory
+PH382M#Laser Physics#3#0#0#6#Minor
+PH402#Mathematical Physics-II#2#1#0#6#Compulsory
+PH404#Statistical Mechanics#3#1#0#8#Compulsory
+PH406#Quantum Mechanics-II#3#1#0#8#Compulsory
+PH408#Measurement techniques#2#0#2#6#Compulsory
+PH410#Electrodynamics-I#3#1#0#8#Compulsory
+PH412#General Physics Laboratory-I#0#0#6#6#Compulsory
+PH422#Project-II#0#0#0#6#Compulsory
+PH442#Theory and Simulation of Nanostructures#3#0#0#6#Open Elective
+PH451#Plasma Physics#3#0#0#6#Elective
+PH452#Magnetic Recording#3#0#0#6#Elective
+PH458#Applied superconductivity#3#0#0#6#Department elective
+PH464#Fundamentals of cosmology#3#0#0#6#Department elective
+PH466#Advanced Statistical Mechanics#3#0#0#6#Elective
+PH516#Advance Physics Laboratory#0#0#6#6#Compulsory
+PH518#Project-II#0#0#12#12#Compulsory
+PH524#Thin Film Phenomena#3#0#0#6#Elective
+PH527#Nanostructured Materials#3#0#0#6#Elective
+PH541#Quantum computation & Quantum information#3#0#0#6#Department elective
+PH544#High Energy Physics#3#0#0#6#Department elective
+PH551#Nonlinear Dynamics and Chaos#3#0#0#6#Open Elective
+PH702#Statistical methods in condensed matter physics#3#0#0#6#Department Elective
+PH704#Guided & Fourier wave optics#3#0#0#6#Department Elective
+PH706#Gravitation and Cosmology#3#0#0#6#Department Elective
+PH708#Mini Project#0#0#0#6#Department Elective
+RA505#Robot Sensing and Vision#3#0#0#6#Compulsory
+RA506#Machine Learning#3#0#0#6#Compulsory
+RT512#Livelihood and Entrepreneurship#3#0#0#6#Compulsory
+RT514#Water Resources Management#3#0#0#6#Dept. Elective
+RT515#Natural Resources Management#3#0#0#6#Dept. Elective
+RT516#Product and Process Development in Food & Bioprocessing industries#3#0#0#6#Dept. Elective
+RT517#Agri-horticulture Produce Processing Technology#3#0#2#8#
+RT520#Field Work and Communication#1#0#4#6#Compulsory
+RT692#Project Phase - II#0#0#24#24#Compulsory

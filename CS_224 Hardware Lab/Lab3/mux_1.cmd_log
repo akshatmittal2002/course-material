@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CS_224/Lab3/mux_1.xst" -ofn "/home/ise/Desktop/CS_224/Lab3/mux_1.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CS_224/Lab3/mux_1.xst" -ofn "/home/ise/Desktop/CS_224/Lab3/mux_1.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CS_224/Lab3/mux_1.xst" -ofn "/home/ise/Desktop/CS_224/Lab3/mux_1.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CS_224/Lab3/mux_1.xst" -ofn "/home/ise/Desktop/CS_224/Lab3/mux_1.syr" 
