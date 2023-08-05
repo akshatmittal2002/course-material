@@ -49,6 +49,13 @@ My Courses of IIT Guwahati, Computer Science and Engineering Department
 - HS155: Introductory Mathematical Economics
 
 ## Semester 6
+- CS345: Software Engineering
+- CS346: Software Engineering Lab
+- CS348: Implementation of Programming Language Lab
+- CS361: Machine Learning
+- CS331: Programming Languages Lab
+- CS528: High Performance Computing
+- CS4549: Computer And Network Security
 
 ## Semester 7
 

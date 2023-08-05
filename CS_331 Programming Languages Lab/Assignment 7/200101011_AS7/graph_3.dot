@@ -1,0 +1,62 @@
+digraph G {
+node [shape=circle];
+root [label="Root", shape = plaintext]
+2[color=black fontcolor=white style=filled fontname=bold]
+root -> 2
+-5[color=black fontcolor=white style=filled fontname=bold]
+2 -> -5;
+-100[color=black fontcolor=white style=filled fontname=bold]
+-5 -> -100;
+nil0[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+-100 -> nil0;
+-100 -> nil1;
+nil1[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+-3[color=black fontcolor=white style=filled fontname=bold]
+-5 -> -3;
+nil2[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+-3 -> nil2;
+-3 -> nil3;
+nil3[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+65[color=black fontcolor=white style=filled fontname=bold]
+2 -> 65;
+23[color=red style=filled fontname=bold]
+65 -> 23;
+21[color=black fontcolor=white style=filled fontname=bold]
+23 -> 21;
+12[color=red style=filled fontname=bold]
+21 -> 12;
+nil4[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+12 -> nil4;
+12 -> nil5;
+nil5[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+21 -> nil6;
+nil6[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+54[color=black fontcolor=white style=filled fontname=bold]
+23 -> 54;
+50[color=red style=filled fontname=bold]
+54 -> 50;
+nil7[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+50 -> nil7;
+50 -> nil8;
+nil8[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+54 -> nil9;
+nil9[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+74[color=red style=filled fontname=bold]
+65 -> 74;
+73[color=black fontcolor=white style=filled fontname=bold]
+74 -> 73;
+nil10[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+73 -> nil10;
+73 -> nil11;
+nil11[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+100[color=black fontcolor=white style=filled fontname=bold]
+74 -> 100;
+nil12[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+100 -> nil12;
+112[color=red style=filled fontname=bold]
+100 -> 112;
+nil13[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+112 -> nil13;
+112 -> nil14;
+nil14[label="NIL" shape = record color=black fontcolor=white style=filled height=0.01 width=0.01]
+}

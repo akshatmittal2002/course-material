@@ -1,0 +1,548 @@
+type_specifier -> void
+pointer_opt -> EPSILON
+identifier <func> 
+type_specifier -> int
+pointer_opt -> EPSILON
+identifier <a> 
+identifier_opt -> identifier
+parameter_declaration -> type_specifier pointer_opt identifier_opt
+parameter_list -> parameter_declaration
+type_specifier -> int
+pointer_opt -> EPSILON
+identifier <b> 
+identifier_opt -> identifier
+parameter_declaration -> type_specifier pointer_opt identifier_opt
+parameter_list -> parameter_list , parameter_declaration
+parameter_list_opt -> parameter_list
+direct_declarator -> identifier ( parameter_list_opt )
+declarator -> pointer_opt direct_declarator
+==================== Line No = 2 ====================
+declaration_list_opt -> EPSILON
+block_item_list_opt -> EPSILON
+==================== Line No = 3 ====================
+identifier <printf> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+primary_expression -> string-literal <Inside Function>
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+argument_expression_list -> assignment_expression
+argument_expression_list_opt -> argument_expression_list
+postfix_expression -> postfix_expression ( argument_expression_list_opt )
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+expression -> assignment_expression
+expression_opt -> expression
+expression_statement-> expression_opt ;
+statement -> expression_statement
+block_item -> statement
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 4 ====================
+compound_statement -> { block_item_list_opt }
+function_definition -> type_specifier declarator declaration_list_opt  compound_statement
+external_declaration -> function_definition
+translation_unit -> external_declaration
+==================== Line No = 5 ====================
+type_specifier -> void
+pointer_opt -> EPSILON
+identifier <main> 
+parameter_list_opt -> EPSILON
+direct_declarator -> identifier ( parameter_list_opt )
+declarator -> pointer_opt direct_declarator
+==================== Line No = 6 ====================
+declaration_list_opt -> EPSILON
+block_item_list_opt -> EPSILON
+==================== Line No = 7 ====================
+type_specifier -> int
+pointer_opt -> EPSILON
+identifier <n> 
+direct_declarator -> identifier
+declarator -> pointer_opt direct_declarator
+unary_operator -> -
+constant -> int-const <2>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+unary_expression -> unary_operator unary_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+initializer -> assignment_expression
+init_declarator -> declarator = initializer
+declaration -> type_specifier init_declarator ;
+block_item -> declaration
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 8 ====================
+type_specifier -> int
+pointer_opt -> EPSILON
+identifier <arr> 
+direct_declarator -> identifier [ int-const ]
+declarator -> pointer_opt direct_declarator
+init_declarator -> declarator
+declaration -> type_specifier init_declarator ;
+block_item -> declaration
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 9 ====================
+type_specifier -> char
+pointer_opt -> EPSILON
+identifier <c> 
+direct_declarator -> identifier
+declarator -> pointer_opt direct_declarator
+constant -> char-const <'b'>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+initializer -> assignment_expression
+init_declarator -> declarator = initializer
+declaration -> type_specifier init_declarator ;
+block_item -> declaration
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 10 ====================
+type_specifier -> char
+pointer -> MULT
+pointer_opt -> pointer
+identifier <c> 
+direct_declarator -> identifier
+declarator -> pointer_opt direct_declarator
+primary_expression -> string-literal <asdasd>
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+initializer -> assignment_expression
+init_declarator -> declarator = initializer
+declaration -> type_specifier init_declarator ;
+block_item -> declaration
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 11 ====================
+identifier <printf> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+primary_expression -> string-literal <A random string!\t\n>
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+argument_expression_list -> assignment_expression
+argument_expression_list_opt -> argument_expression_list
+postfix_expression -> postfix_expression ( argument_expression_list_opt )
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+expression -> assignment_expression
+expression_opt -> expression
+expression_statement-> expression_opt ;
+statement -> expression_statement
+block_item -> statement
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 12 ====================
+==================== Line No = 13 ====================
+==================== Line No = 14 ====================
+==================== Line No = 15 ====================
+==================== Line No = 16 ====================
+==================== Line No = 17 ====================
+type_specifier -> int
+pointer_opt -> EPSILON
+identifier <a> 
+direct_declarator -> identifier
+declarator -> pointer_opt direct_declarator
+constant -> int-const <0>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+initializer -> assignment_expression
+init_declarator -> declarator = initializer
+declaration -> type_specifier init_declarator ;
+block_item -> declaration
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 18 ====================
+type_specifier -> int
+pointer_opt -> EPSILON
+identifier <b> 
+direct_declarator -> identifier
+declarator -> pointer_opt direct_declarator
+constant -> int-const <1>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+initializer -> assignment_expression
+init_declarator -> declarator = initializer
+declaration -> type_specifier init_declarator ;
+block_item -> declaration
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 19 ====================
+type_specifier -> int
+pointer_opt -> EPSILON
+identifier <i> 
+direct_declarator -> identifier
+declarator -> pointer_opt direct_declarator
+init_declarator -> declarator
+declaration -> type_specifier init_declarator ;
+block_item -> declaration
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 20 ====================
+identifier <i> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+constant -> int-const <0>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+assignment_expression -> unary_expression assignment_operator assignment_expression
+expression -> assignment_expression
+expression_opt -> expression
+identifier <i> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+constant -> int-const <10>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> relational_expression < additive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+expression -> assignment_expression
+expression_opt -> expression
+identifier <i> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+identifier <i> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+constant -> int-const <1>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> additive_expression + multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+assignment_expression -> unary_expression assignment_operator assignment_expression
+expression -> assignment_expression
+expression_opt -> expression
+==================== Line No = 21 ====================
+block_item_list_opt -> EPSILON
+==================== Line No = 22 ====================
+identifier <a> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+identifier <n> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+identifier <i> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> multiplicative_expression / unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+assignment_expression -> unary_expression assignment_operator assignment_expression
+expression -> assignment_expression
+expression_opt -> expression
+expression_statement-> expression_opt ;
+statement -> expression_statement
+block_item -> statement
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 23 ====================
+identifier <b> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+identifier <b> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+identifier <i> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> multiplicative_expression modulo unary_expression
+additive_expression -> multiplicative_expression
+identifier <n> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> additive_expression + multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+assignment_expression -> unary_expression assignment_operator assignment_expression
+expression -> assignment_expression
+expression_opt -> expression
+expression_statement-> expression_opt ;
+statement -> expression_statement
+block_item -> statement
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 24 ====================
+compound_statement -> { block_item_list_opt }
+statement -> compound_statement
+iteration_statement -> for ( expression_opt ; expression_opt ; expression_opt ) statement
+statement -> iteration_statement
+block_item -> statement
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 25 ====================
+==================== Line No = 26 ====================
+==================== Line No = 27 ====================
+identifier <b> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+constant -> int-const <30>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> relational_expression <= additive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+expression -> assignment_expression
+identifier <n> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+identifier <a> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+constant -> int-const <30>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> additive_expression + multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+assignment_expression -> unary_expression assignment_operator assignment_expression
+expression -> assignment_expression
+expression_opt -> expression
+expression_statement-> expression_opt ;
+statement -> expression_statement
+==================== Line No = 28 ====================
+identifier <n> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+identifier <a> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+assignment_expression -> unary_expression assignment_operator assignment_expression
+expression -> assignment_expression
+expression_opt -> expression
+expression_statement-> expression_opt ;
+statement -> expression_statement
+selection_statement -> if ( expression ) statement else statement
+statement -> selection_statement
+block_item -> statement
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 29 ====================
+==================== Line No = 30 ====================
+identifier <func> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+identifier <a> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+argument_expression_list -> assignment_expression
+identifier <b> 
+primary_expression -> identifier
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+argument_expression_list -> argument_expression_list , assignment_expression
+argument_expression_list_opt -> argument_expression_list
+postfix_expression -> postfix_expression ( argument_expression_list_opt )
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+expression -> assignment_expression
+expression_opt -> expression
+expression_statement-> expression_opt ;
+statement -> expression_statement
+block_item -> statement
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 31 ====================
+==================== Line No = 32 ====================
+constant -> int-const <0>
+primary_expression -> constant
+postfix_expression -> primary_expression
+unary_expression -> postfix_expression
+multiplicative_expression -> unary_expression
+additive_expression -> multiplicative_expression
+relational_expression -> aditive_expression
+equality_expression -> relational_expression
+logical_AND_expression -> equality_expression
+logical_OR_expression -> logical_AND_expression
+conditional_expression -> logical_OR_expression
+assignment_expression -> conditional_expression
+expression -> assignment_expression
+expression_opt -> expression
+jump_statement -> return expression_opt ;
+statement -> jump_statement
+block_item -> statement
+block_item_list_opt -> block_item_list_opt block_item
+==================== Line No = 33 ====================
+compound_statement -> { block_item_list_opt }
+function_definition -> type_specifier declarator declaration_list_opt  compound_statement
+external_declaration -> function_definition
+translation_unit -> translation_unit external_declaration
+
+
+--------------------------SYMBOL TABLE--------------------------
+===============================================================================================
+| type  | ptr | func |      name       | dimension | length |           value           | lno |
+===============================================================================================
+|  func |     |    * |            func |         0 |      0 |                           |   4 |
+|   int |     |      |               n |         0 |      0 |                         2 |   7 |
+|   int |     |      |             arr |         1 |     10 |                           |   8 |
+|  char |     |      |               c |         0 |      0 |                       'b' |   9 |
+|  char |   * |      |               c |         0 |      0 |                    asdasd |  10 |
+|   int |     |      |               a |         0 |      0 |                         0 |  17 |
+|   int |     |      |               b |         0 |      0 |                         1 |  18 |
+|   int |     |      |               i |         0 |      0 |                           |  19 |
+|  func |     |    * |            main |         0 |      0 |                           |  33 |
+===============================================================================================

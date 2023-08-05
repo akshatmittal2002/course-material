@@ -1,0 +1,12 @@
+run = "clisp main.lisp"
+
+entrypoint = "main.lisp"
+
+[env]
+HAHA = "haha"
+
+[languages.lisp]
+pattern = "**/*.lisp"
+
+    [languages.lisp.languageServer]
+    start = ["lisp-analyzer"]

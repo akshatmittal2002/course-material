@@ -1,0 +1,5 @@
+1 | Akshat Mittal | 21/10/2002 | Male | m.akshat@iitg.ac.in | 1234 | 1234567890 | CSE | 100 | 96 | 98 | 98.00 % |
+2 | Test A | 11/10/1999 | Female | testA@iitg.ac.in | abcd | 7894561230 | ME | 70 | 80 | 90 | 80.00 % |
+3 | Test B | 01/01/2000 | Male | TestB@gmail.com | testB | 753869421 | CE | 86 | 76 | 89 | 83.67 % |
+4 | Test C | 12/12/2023 | Female | testC@yahoo.com | qwerty | 0123 | EE | 98 | 90 | 86 | 91.33 % |
+5 | Test D | 01/07/1990 | Female | testD@gmail.com | abcde | 778899 | CSE | 96 | 93 | 95 | 94.67 % |
