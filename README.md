@@ -55,8 +55,13 @@ My Courses of IIT Guwahati, Computer Science and Engineering Department
 - CS361: Machine Learning
 - CS331: Programming Languages Lab
 - CS528: High Performance Computing
-- CS4549: Computer And Network Security
+- CS549: Computer And Network Security
 
 ## Semester 7
+- CL623: Polymer Science and Technology
+- CS501: Parallel Algorithms
+- CS525: Formal Methods for System Verification
+- CS498: B.Tech. Project-1
+- HS229: Environmental Economics
 
 ## Semester 8
